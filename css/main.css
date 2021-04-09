@@ -43,9 +43,14 @@
   fill: var(--highlight);
 }
 
-/* --== Color in the unread message bar ==-- */
+/* --== Color the unread message bar ==-- */
 .isUnread-3Ef-o9 {
   border-color: var(--highlight);
+}
+
+.isUnread-3Ef-o9 .content-1o0f9g {
+  color: var(--highlight);
+  border: 1px solid var(--highlight);
 }
 
 .wrapper-2jXpOf:hover > .unread-2lAfLh {
