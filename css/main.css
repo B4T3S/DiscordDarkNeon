@@ -6,7 +6,7 @@
   --background: black;
   --close-button: #D41227;
   --interactive-hover: var(--highlight);
-  --interactive-active: gray;
+  --interactive-active: var(--highlight);
   --bdfdb-blurple: var(--highlight);
   --logo-primary: var(--highlight);
   --focus-primary: var(--highlight);
@@ -102,16 +102,15 @@
 }
 
 /* --== Add some FANCY borders! ==-- */
-.scrollableContainer-2NUZem, .wrapper-2aW0bm, .container-1r6BKw.themed-ANHk51,
+.scrollableContainer-2NUZem, .wrapper-2aW0bm,
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx, .quickswitcher-3JagVE,
-.input-2VB9rf, .markup-2BOw-j code {
+.input-2VB9rf, .markup-2BOw-j code, .theme-dark .uploadModal-2ifh8j {
   border: 1px solid var(--highlight);
 }
 
-.input-2VB9rf, .list-17lzo8, .wrapper-1-Fsb8, .button-38aScr {
-  background-color: var(--background);
-}
-
+.input-2VB9rf, .list-17lzo8, .wrapper-1-Fsb8, .button-38aScr,
+.colorable-1bkp8v.primaryDark-3mSFDl, .colorable-1bkp8v.primaryDark-3mSFDl .centerIcon-2G6o-T,
+.theme-dark .uploadModal-2ifh8j, .uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC,
 .button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp,
 .button-1YfofB .buttonColor-7qQbGO.buttonActive-3FrkXp {
   background-color: var(--background);
@@ -248,10 +247,37 @@
 
 }
 
-/*
-.container-3auIfb, .input-rwLH4i:checked {
-  background-color: var(--highlight) !important;
-}*/
+.uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC {
+  border-top: 1px solid var(--highlight);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* --== Style upload Modal ==-- */
+
+/* --== Style spoiler checkbox off of file upload modal ==-- */
+.theme-dark .checkbox-1ix_J3 {
+  transition-duration: .3s;
+}
+
+.theme-dark .checked-3_4uQ9 .da-checked {
+  border-color: var(--highlight) !important;
+}
+
+.theme-dark .checked-3_4uQ9 > svg > path {
+  fill: var(--highlight);
+}
+
+.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6 {
+  border: 1px solid var(--close-button);
+  margin-right: 1vw;
+  transition-duration: .3s;
+}
+
+.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6:hover {
+  background-color: var(--close-button);
+}
+
 
 .container-3auIfb > svg > svg > path {
   fill: var(--highlight);
@@ -263,5 +289,10 @@
 
 /* --== Hide weird unused stuff ==-- */
 .theme-dark .children-19S4PO:after, .form-2fGMdU::before {
+  display: none;
+}
+
+/* --== Remove unread half-circles within servers in favor of colored channels ==-- */
+.unread-2lAfLh {
   display: none;
 }
