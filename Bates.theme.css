@@ -1,3 +1,34 @@
+
+/* --== Define some general variables! ==-- */
+:root {
+  --rgb-highlight: 4, 217, 255;
+  --highlight: rgb(var(--rgb-highlight));
+  --background: black;
+  --close-button: #D41227;
+  --interactive-hover: var(--highlight);
+  --interactive-active: gray;
+  --bdfdb-blurple: var(--highlight);
+  --logo-primary: var(--highlight);
+  --focus-primary: var(--highlight);
+  --radio-group-dot-foreground: var(--highlight);
+  --scrollbar-thin-thumb: var(--highlight);
+  --scrollbar-auto-thumb: var(--highlight);
+  --scrollbar-auto-scrollbar-color-thumb: var(--highlight);
+  --scrollbar-thin-track: var(--background);
+  --scrollbar-auto-track: var(--background);
+  --scrollbar-auto-scrollbar-color-track: var(--background);
+  --background-primary: var(--background);
+  --background-mobile-primary: var(--background);
+  --background-secondary: var(--background);
+  --background-mobile-secondary: var(--background);
+  --background-secondary-alt: var(--background);
+  --background-tertiary: var(--background);
+  --background-accent: var(--background);
+  --background-floating: var(--background);
+  --channeltextarea-background: var(--background);
+  --textbox-markdown-syntax: var(--background);
+}
+
 /* --== Make the close discord button red, because I can lol ==-- */
 .winButtonClose-1HsbF- {
   color: var(--close-button);
