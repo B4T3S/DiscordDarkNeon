@@ -1,0 +1,235 @@
+/**
+ * @name Bates' Theme
+ * @author Bates#7075
+ * @version 1.0.0
+ * @description A darker theme than usual, huh?
+ * @authorId 137259132305539072
+*/
+
+/* --== Define some general variables! ==-- */
+:root {
+  --rgb-highlight: 4, 217, 255;
+  --highlight: rgb(var(--rgb-highlight));
+  --background: black;
+  --close-button: #D41227;
+  --interactive-hover: var(--highlight);
+  --interactive-active: gray;
+  --bdfdb-blurple: var(--highlight);
+  --logo-primary: var(--highlight);
+  --focus-primary: var(--highlight);
+  --radio-group-dot-foreground: var(--highlight);
+  --scrollbar-thin-thumb: var(--highlight);
+  --scrollbar-auto-thumb: var(--highlight);
+  --scrollbar-auto-scrollbar-color-thumb: var(--highlight);
+  --scrollbar-thin-track: var(--background);
+  --scrollbar-auto-track: var(--background);
+  --scrollbar-auto-scrollbar-color-track: var(--background);
+  --background-primary: var(--background);
+  --background-mobile-primary: var(--background);
+  --background-secondary: var(--background);
+  --background-mobile-secondary: var(--background);
+  --background-secondary-alt: var(--background);
+  --background-tertiary: var(--background);
+  --background-accent: var(--background);
+  --background-floating: var(--background);
+  --channeltextarea-background: var(--background);
+  --textbox-markdown-syntax: var(--background);
+}
+
+/* --== Make the close discord button red, because I can lol ==-- */
+.winButtonClose-1HsbF- {
+  color: var(--close-button);
+  transition: .3s;
+}
+
+.winButtonClose-1HsbF-:hover {
+  background-color: var(--close-button);
+}
+
+.wordmarkWindows-1v0lYD > svg > path {
+  fill: var(--highlight);
+}
+
+/* --== Color in the unread message bar ==-- */
+.isUnread-3Ef-o9 {
+  border-color: var(--highlight);
+}
+
+.wrapper-2jXpOf:hover > .unread-2lAfLh {
+  background-color: var(--highlight);
+}
+
+.guildSeparator-33mFX6 {
+  background-color: var(--highlight);
+  border-radius: 2px;
+}
+
+.unreadPillCapStroke-7rkHbg {
+  color: var(--highlight);
+  fill: var(--highlight);
+}
+
+/* --== Add some FANCY borders! ==-- */
+.scrollableContainer-2NUZem, .wrapper-2aW0bm, .container-1r6BKw.themed-ANHk51,
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx, .quickswitcher-3JagVE,
+.input-2VB9rf, .markup-2BOw-j code {
+  border: 1px solid var(--highlight);
+}
+
+.input-2VB9rf, .list-17lzo8, .wrapper-1-Fsb8, .button-38aScr {
+  background-color: var(--background);
+}
+
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp,
+.button-1YfofB .buttonColor-7qQbGO.buttonActive-3FrkXp {
+  background-color: var(--background);
+}
+
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp:hover,
+.button-1YfofB .buttonColor-7qQbGO.buttonActive-3FrkXp:hover {
+  background-color: var(--highlight);
+}
+
+.list-17lzo8 {
+  border: 1px solid var(--highlight);
+  border-radius: 5px;
+}
+
+.listItem-GuPuDH:hover > div > .item-2hkk8m {
+  background-color: var(--highlight);
+}
+
+.newMessagesBar-265mhP {
+  margin-top: 1vh;
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+  border-radius: 5px;
+}
+
+.barButtonAlt-mYL1lj {
+  border-left: none !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.barButtonMain-3K-jeJ, .span-1mKrMp {
+  border-right: none !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+  color: var(--highlight);
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+  background-color: var(--highlight);
+  color: var(--background);
+}
+
+.lookOutlined-3sRXeN.colorRed-1TFJan {
+  background-color: var(--background);
+  border: 1px solid var(--close-button);
+  color: var(--close-button);
+}
+
+.lookOutlined-3sRXeN.colorRed-1TFJan:hover {
+  background-color: var(--close-button);
+  color: var(--background);
+}
+
+/* --== Mentioned in message ==-- */
+.mentioned-xhSam7:before {
+  background-color: var(--highlight);
+}
+
+.mentioned-xhSam7 {
+  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0.4) 0%, rgba(var(--rgb-highlight), 0) 100%);
+}
+
+.mentioned-xhSam7:hover {
+  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0.4) 0%, rgba(var(--rgb-highlight), 0) 100%) !important;
+}
+
+/* --== Autocomplete ==-- */
+.autocompleteInner-zh20B_, .theme-dark .selected-1Tbx07 {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+}
+
+/* --== Popout video player ==-- */
+.pictureInPictureVideo-2iKsGg {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+}
+
+/* --== Ping indicator ==-- */
+
+.ping-2NgC8E > path {
+  fill: var(--highlight);
+}
+
+.rtcConnectionStatusConnected-VRZDjy {
+  color: var(--highlight);
+}
+
+/* --== Style the user popout ==-- */
+.userPopout-3XzG_A {
+  margin-right: 1vw;
+  border: 1px solid var(--highlight);
+}
+
+.headerPlaying-j0WQBV, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6,
+.headerTop-3C2Zn0 {
+  background-color: var(--background);
+}
+
+.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
+  border: 1px solid var(--highlight);
+}
+
+/* --== Style right click list ==-- */
+.scroller-3BxosC {
+  border: 1px solid var(--highlight);
+  border-radius: 5px;
+}
+
+/* --== Style the settings menu(s) ==-- */
+.bd-switch-checked, .bd-addon-views .bd-view-button.selected, .bd-button {
+  background-color: var(--highlight);
+}
+
+.bd-setting-item .bd-select:hover {
+  border: 1px solid var(--highlight);
+}
+
+.bd-select .bd-select-options {
+  border: 1px solid var(--highlight);
+}
+
+.container-3auIfb:not([style*="background-color: rgb(114, 118, 125);"]) { /*For the checked ones*/
+  background-color: var(--highlight) !important;
+}
+.container-3auIfb:not([style*="background-color: rgb(67, 181, 129);"]) { /*For the unchecked ones*/
+
+}
+
+/*
+.container-3auIfb, .input-rwLH4i:checked {
+  background-color: var(--highlight) !important;
+}*/
+
+.container-3auIfb > svg > svg > path {
+  fill: var(--highlight);
+}
+
+.defaultValue-3gC7yw .markValue-2DwdXI {
+  color: var(--highlight);
+}
+
+/* --== Hide weird unused stuff ==-- */
+.theme-dark .children-19S4PO:after, .form-2fGMdU::before {
+  display: none;
+}
