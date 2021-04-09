@@ -96,6 +96,11 @@
   color: var(--background);
 }
 
+/* --== Theme codeblocks and Markdown notation in Chat inputbox ==-- */
+.codeBlockSyntax-2i-tMA, .syntaxAfter-hcA4AH, .syntaxBefore-1YQ9lW {
+  color: var(--highlight);
+}
+
 /* --== Add some FANCY borders! ==-- */
 .scrollableContainer-2NUZem, .wrapper-2aW0bm, .container-1r6BKw.themed-ANHk51,
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx, .quickswitcher-3JagVE,
