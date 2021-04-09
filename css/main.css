@@ -62,6 +62,24 @@
   fill: var(--highlight);
 }
 
+.unreadPill-2HyYtt {
+  background-color: var(--highlight);
+}
+
+/* --== Theme the Friends page ==-- */
+.itemCard-v9viV7 {
+  border: 1px solid var(--highlight);
+}
+
+.section-2gLsgF {
+  background-color: var(--background);
+  border-left: 3px solid var(--highlight);
+}
+
+.content-3YMskv, .peopleList-3c4jOR {
+  background-color: var(--background);
+}
+
 /* --== Add some FANCY borders! ==-- */
 .scrollableContainer-2NUZem, .wrapper-2aW0bm, .container-1r6BKw.themed-ANHk51,
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx, .quickswitcher-3JagVE,
