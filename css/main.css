@@ -80,6 +80,22 @@
   background-color: var(--background);
 }
 
+/* --== Theme plugin update banner ==-- */
+.noticeWrapper-8z511t {
+  background-color: var(--background);
+}
+
+.noticeWrapper-8z511t .button-2DhvE9{
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+}
+
+.noticeWrapper-8z511t .button-2DhvE9:hover{
+  background-color: var(--highlight);
+  border: 1px solid var(--background);
+  color: var(--background);
+}
+
 /* --== Add some FANCY borders! ==-- */
 .scrollableContainer-2NUZem, .wrapper-2aW0bm, .container-1r6BKw.themed-ANHk51,
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx, .quickswitcher-3JagVE,
