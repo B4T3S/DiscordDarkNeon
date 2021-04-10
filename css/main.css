@@ -121,6 +121,11 @@
   color: var(--highlight);
 }
 
+/* --== Theme delete icon in message ==-- */
+.dangerous-2r8KxV > svg > path {
+  fill: var(--close-button);
+}
+
 /* --== Add some FANCY borders! ==-- */
 .scrollableContainer-2NUZem, .wrapper-2aW0bm,
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx, .quickswitcher-3JagVE,
