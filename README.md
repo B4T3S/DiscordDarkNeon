@@ -18,3 +18,12 @@ as an example, here's the default neon blue color code:
   --rgb-highlight: 4, 217, 255;
 }
 ```
+
+You can also change all "negative" buttons with
+```css
+:root {
+  --close-button: HEX-CODE;
+}
+```
+
+Where HEX-CODE is the color as a hex-code like #FFFFFF
