@@ -209,6 +209,16 @@
   background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0.4) 0%, rgba(var(--rgb-highlight), 0) 100%) !important;
 }
 
+.wrapper-3WhCwL {
+  color: var(--highlight);
+  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0.2) 0%, rgba(var(--rgb-highlight), 0.2) 100%);
+}
+
+.wrapper-3WhCwL:hover {
+  color: var(--highlight);
+  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0.4) 0%, rgba(var(--rgb-highlight), 0.4) 100%) !important;
+}
+
 /* --== Autocomplete ==-- */
 .autocompleteInner-zh20B_, .theme-dark .selected-1Tbx07 {
   background-color: var(--background);
@@ -389,6 +399,35 @@
 .defaultValue-3gC7yw .markValue-2DwdXI {
   color: var(--highlight);
 }
+
+/* --== Theme Search Bar ==-- */
+.searchBar-3dMhjb:hover .iconLayout-1WxHy4 div svg path,
+.searchBar-3dMhjb[aria-expanded="true"] .iconLayout-1WxHy4 div svg path {
+  fill: var(--highlight);
+}
+
+.circular-2NaZOq > circle {
+  stroke: var(--highlight) !important;
+}
+
+/* --== Theme Group owner Icon ==-- */
+.ownerIcon-2NH9FM {
+  color: var(--highlight);
+}
+
+/* --== Theme home button ==-- */
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+  background-color: var(--highlight);
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 svg path, .wrapper-1BJsBx:hover .childWrapper-anI2G9 svg path {
+  fill: var(--background);
+}
+
+.homeIcon-FuNwkv path {
+  fill: var(--highlight);
+}
+
 
 /* --== Hide weird unused stuff ==-- */
 .theme-dark .children-19S4PO:after, .form-2fGMdU::before {
