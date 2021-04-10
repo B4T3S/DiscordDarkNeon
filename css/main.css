@@ -7,6 +7,7 @@
   --close-button: #D41227;
   --interactive-hover: var(--highlight);
   --interactive-active: var(--highlight);
+  --text-link: var(--highlight);
   --bdfdb-blurple: var(--highlight);
   --logo-primary: var(--highlight);
   --focus-primary: var(--highlight);
@@ -83,6 +84,19 @@
 
 .content-3YMskv, .peopleList-3c4jOR {
   background-color: var(--background);
+}
+
+/* --== Theme Spoiler warning ==-- */
+.theme-dark .spoilerWarning-2aAZq1 {
+  background-color: var(--background);
+  color: var(--highlight);
+  border: 1px solid var(--highlight);
+  transition-duration: .3s;
+}
+
+.theme-dark .spoilerContainer-331r0R.hidden-HHr2R9:hover .spoilerWarning-2aAZq1 {
+  background-color: var(--highlight) !important;
+  color: var(--background) !important;
 }
 
 /* --== Theme plugin update banner ==-- */
@@ -256,6 +270,84 @@
   border-top: 1px solid var(--highlight);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+.lookFilled-1Gx00P.colorRed-1TFJan, .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6  {
+  color: var(--close-button);
+  background-color: var(--background);
+  border: 1px solid var(--close-button);
+  transition-duration: .3s;
+}
+
+.lookFilled-1Gx00P.colorRed-1TFJan:hover, .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6  {
+  color: var(--background);
+  background-color: var(--close-button);
+}
+
+.contents-18-Yxp {
+  background-image: none !important;
+}
+
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV {
+  color: var(--highlight);
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+  transition-duration: .3s;
+}
+
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+  color: var(--background) !important;
+  background-color: var(--highlight) !important;
+}
+
+.side-8zPYf6 .item-PXvHYJ[style*="color: rgb(114, 137, 218);"] {
+  color: var(--interactive-normal) !important;
+}
+
+.side-8zPYf6 .item-PXvHYJ[style*="color: rgb(114, 137, 218);"]:hover {
+  color: var(--highlight) !important;
+}
+
+.colorDanger-2qLCe1, .colorDanger-2qLCe1 .checkbox-3s5GYZ, .colorDanger-2qLCe1 .radioSelection-1HmrQS {
+  color: var(--close-button);
+  transition-duration: .3s;
+}
+
+.colorDanger-2qLCe1:hover, .colorDanger-2qLCe1 .checkbox-3s5GYZ, .colorDanger-2qLCe1 .radioSelection-1HmrQS {
+  background-color: var(--close-button) !important;
+  color: var(--background) !important;
+}
+
+.focused-3afm-j {
+  color: var(--highlight) !important;
+  background-color: var(--background) !important;
+}
+
+.menu-319q29 div svg path {
+  transition-duration: .3s;
+}
+
+.menu-319q29 div:hover svg path {
+  fill: var(--highlight);
+}
+
+.theme-dark .closeButton-1tv5uR {
+  transition-duration: .3s;
+  border-color: var(--close-button);
+}
+
+.theme-dark .closeButton-1tv5uR svg path {
+  fill: var(--close-button);
+  transition-duration: .3s;
+}
+
+.theme-dark .closeButton-1tv5uR:hover {
+  background-color: var(--close-button);
+  border-color: var(--close-button);
+}
+
+.theme-dark .closeButton-1tv5uR:hover svg path {
+  fill: var(--background);
 }
 
 /* --== Style upload Modal ==-- */
