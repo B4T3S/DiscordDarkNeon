@@ -428,6 +428,14 @@
   fill: var(--highlight);
 }
 
+/* --== Theme timestamps and Edit buttons ==-- */
+.operations-36ENbA>a {
+  color: var(--highlight);
+}
+
+.cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+  color: var(--highlight);
+}
 
 /* --== Hide weird unused stuff ==-- */
 .theme-dark .children-19S4PO:after, .form-2fGMdU::before {
