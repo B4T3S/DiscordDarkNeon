@@ -19,6 +19,7 @@
   --scrollbar-thin-track: var(--background);
   --scrollbar-auto-track: var(--background);
   --scrollbar-auto-scrollbar-color-track: var(--background);
+  --activity-card-background: var(--background);
   --background-primary: var(--background);
   --background-mobile-primary: var(--background);
   --background-secondary: var(--background);
@@ -435,6 +436,11 @@
 
 .cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
   color: var(--highlight);
+}
+
+/* --== Theme pin's new-tag ==-- */
+.iconBadge-qZ4Ksk {
+  background-color: var(--highlight);
 }
 
 /* --== Hide weird unused stuff ==-- */
