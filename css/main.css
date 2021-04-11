@@ -6,6 +6,9 @@
   --highlight: rgb(var(--rgb-highlight));
   --background: black;
   --close-button: #D41227;
+  --online-color: #39ff14;
+  --afk-color: #FFFF33;
+  --dnd-color: #FF0000;
   --interactive-hover: var(--highlight);
   --interactive-active: var(--highlight);
   --text-link: var(--highlight);
@@ -74,7 +77,7 @@
   background-color: var(--highlight);
 }
 
-/* --== Theme the Friends page ==-- */
+/* --== Style the Friends page ==-- */
 .itemCard-v9viV7 {
   border: 1px solid var(--highlight);
 }
@@ -88,7 +91,7 @@
   background-color: var(--background);
 }
 
-/* --== Theme Spoiler warning ==-- */
+/* --== Style Spoiler warning ==-- */
 .theme-dark .spoilerWarning-2aAZq1 {
   background-color: var(--background);
   color: var(--highlight);
@@ -101,7 +104,7 @@
   color: var(--background) !important;
 }
 
-/* --== Theme plugin update banner ==-- */
+/* --== Style plugin update banner ==-- */
 .noticeWrapper-8z511t {
   background-color: var(--background);
 }
@@ -117,12 +120,12 @@
   color: var(--background);
 }
 
-/* --== Theme codeblocks and Markdown notation in Chat inputbox ==-- */
+/* --== Style codeblocks and Markdown notation in Chat inputbox ==-- */
 .codeBlockSyntax-2i-tMA, .syntaxAfter-hcA4AH, .syntaxBefore-1YQ9lW {
   color: var(--highlight);
 }
 
-/* --== Theme delete icon in message ==-- */
+/* --== Style delete icon in message ==-- */
 .dangerous-2r8KxV > svg > path {
   fill: var(--close-button);
 }
@@ -257,6 +260,28 @@
   border: 1px solid var(--highlight);
 }
 
+.header-QKLPzZ {
+  background-color: var(--background);
+}
+
+.headerFill-adLl4x {
+  background-color: var(--background);
+}
+
+/* Style the online/afk/dnd icons */
+
+.pointerEvents-2zdfdO[fill="#43b581"] {
+  fill: var(--online-color);
+}
+
+.pointerEvents-2zdfdO[fill="#faa61a"] {
+  fill: var(--afk-color);
+}
+
+.pointerEvents-2zdfdO[fill="#f04747"] {
+  fill: var(--dnd-color);
+}
+
 /* --== Style right click list ==-- */
 .scroller-3BxosC {
   border: 1px solid var(--highlight);
@@ -367,8 +392,6 @@
   fill: var(--background);
 }
 
-/* --== Style upload Modal ==-- */
-
 /* --== Style spoiler checkbox off of file upload modal ==-- */
 .theme-dark .checkbox-1ix_J3 {
   transition-duration: .3s;
@@ -401,7 +424,7 @@
   color: var(--highlight);
 }
 
-/* --== Theme Search Bar ==-- */
+/* --== Style Search Bar ==-- */
 .searchBar-3dMhjb:hover .iconLayout-1WxHy4 div svg path,
 .searchBar-3dMhjb[aria-expanded="true"] .iconLayout-1WxHy4 div svg path {
   fill: var(--highlight);
@@ -411,12 +434,12 @@
   stroke: var(--highlight) !important;
 }
 
-/* --== Theme Group owner Icon ==-- */
+/* --== Style Group owner Icon ==-- */
 .ownerIcon-2NH9FM {
   color: var(--highlight);
 }
 
-/* --== Theme home button ==-- */
+/* --== Style home button ==-- */
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
   background-color: var(--highlight);
 }
@@ -429,7 +452,7 @@
   fill: var(--highlight);
 }
 
-/* --== Theme timestamps and Edit buttons ==-- */
+/* --== Style timestamps and Edit buttons ==-- */
 .operations-36ENbA>a {
   color: var(--highlight);
 }
@@ -438,7 +461,7 @@
   color: var(--highlight);
 }
 
-/* --== Theme pin's new-tag ==-- */
+/* --== Style pin's new-tag ==-- */
 .iconBadge-qZ4Ksk {
   background-color: var(--highlight);
 }
