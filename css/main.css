@@ -155,7 +155,8 @@
   border-radius: 5px;
 }
 
-.listItem-GuPuDH:hover > div > .item-2hkk8m {
+.listItem-GuPuDH:hover > div > .item-2hkk8m,
+.item-2hkk8m[style="opacity: 1; height: 40px; transform: none;"] {
   background-color: var(--highlight);
 }
 
