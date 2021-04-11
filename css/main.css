@@ -321,7 +321,7 @@
   transition-duration: .3s;
 }
 
-.lookFilled-1Gx00P.colorRed-1TFJan:hover, .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6  {
+.lookFilled-1Gx00P.colorRed-1TFJan:hover, .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6:hover  {
   color: var(--background);
   background-color: var(--close-button);
 }
