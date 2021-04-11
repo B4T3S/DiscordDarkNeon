@@ -1,0 +1,29 @@
+:root {
+  --hidden-user-width: 60px;
+  --user-width: 240px;
+}
+
+.membersWrap-2h-GB4 {
+  transition-duration: .4s;
+  justify-content: unset;
+  min-width: unset;
+  width: var(--hidden-user-width);
+}
+
+.membersGroup-v9BXpm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--highlight);
+  height: 0px;
+  padding: 0px;
+  transition-duration: .4s;
+}
+
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm{
+  height: 40px;
+}
+
+.membersWrap-2h-GB4:hover {
+  width: var(--user-width);
+}
