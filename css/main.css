@@ -9,6 +9,7 @@
   --online-color: #39ff14;
   --afk-color: #FFFF33;
   --dnd-color: #FF0000;
+  --streaming-color: #bc13fe;
   --interactive-hover: var(--highlight);
   --interactive-active: var(--highlight);
   --text-link: var(--highlight);
@@ -269,6 +270,39 @@
   background-color: var(--background);
 }
 
+/* --== Style spotify widget on user popout ==-- */
+
+.headerSpotify-zpWxgT {
+  background-color: var(--background);
+}
+
+.barInner-3NDaY_ {
+  background-color: var(--highlight);
+}
+
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+  border-color: var(--highlight);
+}
+
+.listenAlongIcon-2TkOLH path {
+  fill: var(--highlight);
+}
+
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
+  background-color: var(--highlight);
+  color: var(--background);
+}
+
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover svg path {
+  fill: var(--background);
+}
+
+/* --== Style twitch widget on user popout ==-- */
+
+.activity-11LB_k {
+  background-color: var(--background);
+}
+
 /* Style the online/afk/dnd icons */
 
 .pointerEvents-2zdfdO[fill="#43b581"] {
@@ -281,6 +315,10 @@
 
 .pointerEvents-2zdfdO[fill="#f04747"] {
   fill: var(--dnd-color);
+}
+
+.pointerEvents-2zdfdO[fill="#593695"] {
+  fill: var(--streaming-color);
 }
 
 /* --== Style right click list ==-- */
