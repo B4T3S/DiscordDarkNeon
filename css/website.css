@@ -1,0 +1,15 @@
+:root {
+  --rgb-highlight: 4, 217, 255 !important;
+  --highlight: rgb(var(--rgb-highlight));
+  --background: black !important;
+  --close-button: #D41227 !important;
+  --online-color: #39ff14 !important;
+  --afk-color: #FFFF33 !important;
+  --dnd-color: #FF0000 !important;
+  --streaming-color: #bc13fe !important;
+}
+
+body {
+  height: 95vh;
+  color: gray;
+}
