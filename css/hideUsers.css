@@ -11,12 +11,7 @@
 }
 
 .membersGroup-v9BXpm {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--highlight);
   height: 0px;
-  padding: 0px;
   transition-duration: .4s;
 }
 
