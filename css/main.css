@@ -559,6 +559,40 @@
   background: linear-gradient(90deg, rgba(var(--rgb-highlight), 1) 0%, rgba(var(--rgb-highlight), 0) 100%);
 }
 
+/* --== Theme BD Update popout ==-- */
+
+.theme-dark .root-1gCeng, .theme-dark .footer-2gL1pp {
+  background-color: var(--background);
+}
+
+.close-hZ94c6 div svg path {
+  fill: var(--close-button);
+}
+
+.added-2hLRj3.marginTop-2incQ6 {
+  color: var(--online-color);
+}
+
+.added-2hLRj3.marginTop-2incQ6::after {
+  background-color: var(--online-color);
+}
+
+.improved-1NJK-y {
+  color: var(--highlight);
+}
+
+.improved-1NJK-y::after {
+  background-color: var(--highlight);
+}
+
+.fixed-3zCC84 {
+  color: var(--close-button);
+}
+
+.fixed-3zCC84::after {
+  background-color: var(--close-button);
+}
+
 /* --== Hide weird unused stuff ==-- */
 .theme-dark .children-19S4PO:after, .form-2fGMdU::before {
   display: none;
