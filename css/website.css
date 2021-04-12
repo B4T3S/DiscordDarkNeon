@@ -9,7 +9,159 @@
   --streaming-color: #bc13fe !important;
 }
 
+#dark {
+  background-color: var(--highlight);
+  color: var(--background);
+  padding: 10px;
+  padding-top: 8px;
+  border-radius: 20px;
+}
+
+#neon {
+  background-color: var(--background);
+  color: var(--highlight);
+  padding: 10px;
+  padding-top: 8px;
+}
+
 body {
+  background-color: var(--background);
   height: 95vh;
   color: gray;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+  background-color: var(--background)
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background-color: var(--highlight)
+}
+
+.neon {
+  color: var(--highlight);
+}
+
+.dark {
+  color: var(--background);
+  background-color: var(--highlight);
+  border-radius: 5px;
+  padding: 3px;
+  padding-top: 1px;
+}
+
+.card {
+  background-color: var(--background) !important;
+  border-color: var(--highlight) !important;
+}
+
+.card h5 {
+  color: var(--highlight);
+}
+
+.list-group-item {
+  background-color: var(--background) !important;
+  color: var(--background);
+  padding: 5px;
+  color: inherit;
+}
+
+.example-online p {
+  background-color: var(--online-color) !important;
+  color: var(--background);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.example-idle p {
+  background-color: var(--afk-color) !important;
+  color: var(--background);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.example-dnd p {
+  background-color: var(--dnd-color) !important;
+  color: var(--background);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.example-streaming p {
+  background-color: var(--streaming-color) !important;
+  color: var(--background);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 25px;
+  outline: none;
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+  border-radius: 25px;
+  margin-bottom: 2vh;
+  opacity: 0.7;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#customR::-webkit-slider-thumb{
+  background: rgb(255, 0, 0);
+}
+
+#customR::-moz-range-thumb{
+  background: rgb(255, 0, 0);
+}
+
+#customG::-webkit-slider-thumb{
+  background: rgb(0, 255, 0);
+}
+
+#customG::-moz-range-thumb{
+  background: rgb(0, 255, 0);
+}
+
+#customB::-webkit-slider-thumb{
+  background: rgb(0, 0, 255);
+}
+
+#customB::-moz-range-thumb{
+  background: rgb(0, 0, 255);
+}
+
+.button {
+  background-color: var(--background);
+  color: var(--highlight);
+  border: 1px solid var(--highlight);
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: .3s;
+}
+
+.button:hover {
+  background-color: var(--highlight);
+  color: var(--background);
 }
