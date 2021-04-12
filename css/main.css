@@ -36,7 +36,13 @@
   --textbox-markdown-syntax: var(--background);
 }
 
-/* --== Make the close discord button red, because I can lol ==-- */
+/* --== Style text-highlighting ==-- */
+::selection {
+  background: var(--highlight);
+  color: var(--background);
+}
+
+/* --== Style the close button ==-- */
 .winButtonClose-1HsbF- {
   color: var(--close-button);
   transition: .3s;
@@ -50,7 +56,7 @@
   fill: var(--highlight);
 }
 
-/* --== Color the unread message bar ==-- */
+/* --== Style the unread message bar ==-- */
 .isUnread-3Ef-o9 {
   border-color: var(--highlight);
 }
@@ -132,8 +138,7 @@
 }
 
 /* --== Add some FANCY borders! ==-- */
-.scrollableContainer-2NUZem, .wrapper-2aW0bm,
-.searchBar-6Kv8R2 .searchBarComponent-32dTOx, .quickswitcher-3JagVE,
+.scrollableContainer-2NUZem, .wrapper-2aW0bm, .quickswitcher-3JagVE,
 .input-2VB9rf, .markup-2BOw-j code, .theme-dark .uploadModal-2ifh8j {
   border: 1px solid var(--highlight);
 }
@@ -202,7 +207,7 @@
   color: var(--background);
 }
 
-/* --== Mentioned in message ==-- */
+/* --== Style Mentions in messages ==-- */
 .mentioned-xhSam7:before {
   background-color: var(--highlight);
 }
@@ -225,19 +230,19 @@
   background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0.4) 0%, rgba(var(--rgb-highlight), 0.4) 100%) !important;
 }
 
-/* --== Autocomplete ==-- */
+/* --== Style autocomplete popout ==-- */
 .autocompleteInner-zh20B_, .theme-dark .selected-1Tbx07 {
   background-color: var(--background);
   border: 1px solid var(--highlight);
 }
 
-/* --== Popout video player ==-- */
+/* --== Style popout video player ==-- */
 .pictureInPictureVideo-2iKsGg {
   background-color: var(--background);
   border: 1px solid var(--highlight);
 }
 
-/* --== Ping indicator ==-- */
+/* --== Style ping indicator ==-- */
 
 .ping-2NgC8E > path {
   fill: var(--highlight);
@@ -268,6 +273,26 @@
 
 .headerFill-adLl4x {
   background-color: var(--background);
+}
+
+.root-SR8cQa {
+  border: 1px solid var(--highlight);
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY, .lookInverted-2D7oAl.colorBrand-3pXr91 {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+  color: var(--highlight);
+  transition-duration: .3s;
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover, .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
+  background-color: var(--highlight);
+  color: var(--background);
+}
+
+.pointerEvents-2zdfdO[fill="#ffffff"] {
+  fill: var(--online-color);
 }
 
 /* --== Style spotify widget on user popout ==-- */
@@ -303,7 +328,7 @@
   background-color: var(--background);
 }
 
-/* Style the online/afk/dnd icons */
+/* --== Style the online/afk/dnd icons ==-- */
 
 .pointerEvents-2zdfdO[fill="#43b581"] {
   fill: var(--online-color);
@@ -463,16 +488,6 @@
   color: var(--highlight);
 }
 
-/* --== Style Search Bar ==-- */
-.searchBar-3dMhjb:hover .iconLayout-1WxHy4 div svg path,
-.searchBar-3dMhjb[aria-expanded="true"] .iconLayout-1WxHy4 div svg path {
-  fill: var(--highlight);
-}
-
-.circular-2NaZOq > circle {
-  stroke: var(--highlight) !important;
-}
-
 /* --== Style Group owner Icon ==-- */
 .ownerIcon-2NH9FM {
   color: var(--highlight);
@@ -506,7 +521,6 @@
 }
 
 /* --== Style member titles ==-- */
-
 .membersGroup-v9BXpm {
   display: flex;
   align-items: center;
@@ -534,7 +548,6 @@
 }
 
 /* --== Style channelgroup titles ==-- */
-
 .containerDefault-3tr_sE {
   display: flex;
   align-items: center;
@@ -567,8 +580,7 @@
   background: linear-gradient(90deg, rgba(var(--rgb-highlight), 1) 0%, rgba(var(--rgb-highlight), 0) 100%);
 }
 
-/* --== Theme BD Update popout ==-- */
-
+/* --== Style BD Update popout ==-- */
 .theme-dark .root-1gCeng, .theme-dark .footer-2gL1pp {
   background-color: var(--background);
 }
@@ -601,12 +613,153 @@
   background-color: var(--close-button);
 }
 
+/* --== Style some of the BD Setting controls ==-- */
+.bd-button.bd-button-danger {
+  background-color: var(--background);
+  border: 1px solid var(--close-button);
+  transition-duration: .3s;
+  margin-left: 2px;
+}
+
+.bd-button.bd-button-danger:hover {
+  background-color: var(--close-button) !important;
+}
+
+.bd-controls>.bd-addon-button:first-of-type {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+  transition-duration: .3s;
+  margin-right: 2px;
+}
+
+.bd-controls>.bd-addon-button:first-of-type:hover {
+  background-color: var(--highlight);
+}
+
+.bd-button {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+  color: var(--highlight);
+  transition-duration: .3s;
+}
+
+.bd-button:hover {
+  background-color: var(--highlight) !important;
+  color: var(--background);
+}
+
+.bd-addon-views svg path {
+  transition-duration: .3s;
+}
+
+.bd-addon-views svg:nth-child(1) {
+  fill: var(--highlight);
+}
+
+.bd-view-button:hover svg:nth-child(1), .bd-view-button.selected svg:nth-child(1) {
+  fill: var(--background);
+}
+
+/* --== Style the "Pin Message" modal ==-- */
+.theme-dark .message-2qRu38 {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+}
+
+/* --== Style (edited) tag ==-- */
+.cozy-3raOZG .contents-2mQqc9 div span time span {
+  color: var(--highlight);
+}
+
+/* --== Style "day change" spacers in chat ==-- */
+.group-spacing-16 .divider-3_HH5L.hasContent-1_DUdQ {
+  background-color: var(--background);
+}
+
+.group-spacing-16 .divider-3_HH5L.hasContent-1_DUdQ span {
+  color: var(--highlight);
+  padding-right: 8px;
+}
+
+.group-spacing-16 .divider-3_HH5L.hasContent-1_DUdQ::before {
+  content: '\00a0';
+  width: 100%;
+  height: 2px;
+  margin-right: -11px;
+  display: inline-block;
+  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0) 0%, rgba(var(--rgb-highlight), 1) 100%);
+}
+
+.group-spacing-16 .divider-3_HH5L.hasContent-1_DUdQ::after {
+  content: '\00a0';
+  width: 100%;
+  height: 2px;
+  margin-left: -3px;
+  display: inline-block;
+  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 1) 0%, rgba(var(--rgb-highlight), 0) 100%);
+}
+
+/* --== Style search bar in the top-right ==-- */
+.resultsGroup-r_nuzN {
+  background-color: var(--background);
+}
+
+.theme-dark .option-96V44q.selected-rZcOL- {
+  background-color: var(--background);
+}
+
+.theme-dark .option-96V44q.selected-rZcOL- span, .theme-dark .option-96V44q.selected-rZcOL- svg {
+  color: var(--highlight);
+}
+
+.theme-dark .option-96V44q:after {
+  display: none;
+}
+
+.resultsGroup-r_nuzN .searchLearnMore-3SQUAj a:hover svg g path {
+  fill: var(--highlight);
+}
+
+.searchBar-3dMhjb:hover .iconLayout-1WxHy4 div svg path,
+.searchBar-3dMhjb[aria-expanded="true"] .iconLayout-1WxHy4 div svg path {
+  fill: var(--highlight);
+}
+
+.circular-2NaZOq > circle {
+  stroke: var(--highlight) !important;
+}
+
+.searchBar-3dMhjb:hover div div div {
+  color: var(--highlight);
+}
+
+.searchBar-3dMhjb:hover[aria-expanded="true"] div div div {
+  color: inherit;
+}
+
+/* --== Style the "Find or start a conversation" button (finally) ==-- */
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 1px solid var(--highlight);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  color: var(--highlight);
+  transition-duration: .3s;
+}
+
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx:hover {
+  background-color: var(--highlight);
+  color: var(--background);
+}
+
 /* --== Hide weird unused stuff ==-- */
 .theme-dark .children-19S4PO:after, .form-2fGMdU::before {
   display: none;
 }
 
-/* --== Remove unread half-circles within servers in favor of colored channels ==-- */
+/* --== Remove unread half-circles within servers in favor of colored channel-names ==-- */
 .unread-2lAfLh {
   display: none;
 }
