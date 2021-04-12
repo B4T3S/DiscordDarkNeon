@@ -754,6 +754,15 @@
   color: var(--background);
 }
 
+/* --== Style "You're viewing older messages" bar ==-- */
+.jumpToPresentBar-G1R9s6 {
+  background-color: var(--highlight);
+}
+
+.jumpToPresentBar-G1R9s6 button {
+  color: var(--background);
+}
+
 /* --== Hide weird unused stuff ==-- */
 .theme-dark .children-19S4PO:after, .form-2fGMdU::before {
   display: none;
