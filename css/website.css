@@ -159,6 +159,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
   cursor: pointer;
   transition-duration: .3s;
+  text-decoration: none;
 }
 
 .button:hover {
