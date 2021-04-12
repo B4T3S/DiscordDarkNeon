@@ -45,9 +45,9 @@
               <h5 class="card-title mb-3">MOAR Customization!</h5>
               <p class="card-text">The Theme uses easy to change css variables for it's colors!</br>Try it! Enter some custom RGB values!</p>
               <div class="d-flex flex-column">
-                <input type="range" min="0" max="255" value="4" step="1" class="slider" id="customR" onchange="updateColors()">
-                <input type="range" min="0" max="255" value="217" step="1" class="slider" id="customG" onchange="updateColors()">
-                <input type="range" min="0" max="255" value="255" step="1" class="slider" id="customB" onchange="updateColors()">
+                <input type="range" min="0" max="255" value="4" step="1" class="slider" id="customR" oninput="updateColors()" onchange="logColor()">
+                <input type="range" min="0" max="255" value="217" step="1" class="slider" id="customG" oninput="updateColors()" onchange="logColor()">
+                <input type="range" min="0" max="255" value="255" step="1" class="slider" id="customB" oninput="updateColors()" onchange="logColor()">
               </div>
               <p class="card-text">Just edit the <b class="neon">--rgb-highlight</b> variable in your DarkNeon.theme.css file!</p>
             </div>
@@ -92,12 +92,15 @@
         if (numb.length == 2) {
           return numb;
         } else {
-          return numb + "0";
+          return "0" + numb;
         }
       }
 
       function updateColors() {
         root.style.setProperty('--highlight', '#' + decimalToHex(customR.value) + decimalToHex(customG.value) + decimalToHex(customB.value));
+      }
+
+      function logColor() {
         console.log("HEX: " + root.style.getPropertyValue('--highlight'));
         console.log("RGB: " + customR.value + ', ' + customG.value + ', ' + customB.value);
       }

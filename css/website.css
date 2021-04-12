@@ -160,6 +160,7 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
   transition-duration: .3s;
   text-decoration: none;
+  line-break: none;
 }
 
 .button:hover {
