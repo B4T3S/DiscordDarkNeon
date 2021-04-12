@@ -507,6 +507,14 @@
 
 /* --== Style member titles ==-- */
 
+.membersGroup-v9BXpm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--highlight);
+  padding: 0px;
+}
+
 .membersGroup-v9BXpm::before {
   content: '\00a0';
   width: 100%;
