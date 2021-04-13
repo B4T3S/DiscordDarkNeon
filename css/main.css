@@ -230,6 +230,12 @@
   background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0.4) 0%, rgba(var(--rgb-highlight), 0.4) 100%) !important;
 }
 
+/* --== Style new message bubble ==-- */
+.numberBadge-2s8kKX {
+  background-color: var(--highlight) !important;
+  color: var(--background);
+}
+
 /* --== Style autocomplete popout ==-- */
 .autocompleteInner-zh20B_, .theme-dark .selected-1Tbx07 {
   background-color: var(--background);
