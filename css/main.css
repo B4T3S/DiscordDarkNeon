@@ -340,6 +340,10 @@
   fill: var(--online-color);
 }
 
+.cursorDefault-dsQJ1n rect[fill="#43b581"] { /* Why are you like this discord? */
+  fill: var(--online-color);
+}
+
 .pointerEvents-2zdfdO[fill="#faa61a"] {
   fill: var(--afk-color);
 }
