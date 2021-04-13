@@ -996,6 +996,17 @@
   color: var(--background);
 }
 
+/* --== Style the "Block" button in new DM's ==-- */
+.container-1fnzfI button:nth-of-type(2) {
+  border-color: var(--close-button) !important;
+  color: var(--close-button) !important;
+}
+
+.container-1fnzfI button:nth-of-type(2):hover {
+  color: var(--background) !important;
+  background-color: var(--close-button)  !important;
+}
+
 /* --== Hide weird unused stuff ==-- */
 .theme-dark .children-19S4PO:after, .form-2fGMdU::before {
   display: none;
