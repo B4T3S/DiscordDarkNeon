@@ -5,11 +5,17 @@
   --rgb-highlight: 4, 217, 255;
   --highlight: rgb(var(--rgb-highlight));
   --background: black;
-  --close-button: #D41227;
+  --close-button: var(--dnd-color) !important;
   --online-color: #39ff14;
   --afk-color: #FFFF33;
   --dnd-color: #FF0000;
   --streaming-color: #bc13fe;
+  --rs-online-color: var(--online-color);
+  --rs-idle-color: var(--afk-color);
+  --rs-dnd-color: var(--dnd-color);
+  --rs-offline-color: gray;
+  --rs-invisible-color: gray;
+  --rs-streaming-color: var(--stream-color);
   --interactive-hover: var(--highlight);
   --interactive-active: var(--highlight);
   --text-link: var(--highlight);

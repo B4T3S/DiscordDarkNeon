@@ -20,9 +20,17 @@
 :root {
   --rgb-highlight: 4, 217, 255 !important; /* The main highlight color in RGB values (RGB instead of hex is needed for faded effects) */
   --background: black !important; /* The main background color */
-  --close-button: #D41227 !important; /* The main "close this" or "deny" color */
+  --close-button: var(--dnd-color) !important; /* The main "close this" or "deny" color */
   --online-color: #39ff14 !important; /* The color used in the "online" user status symbol */
   --afk-color: #FFFF33 !important; /* The color used in the "idle" user status symbol */
   --dnd-color: #FF0000 !important; /* The color used in the "do not disturb" user status symbol */
   --streaming-color: #bc13fe !important; /* The color used in the "streaming X" user status symbol */
+
+  /* --== Radial Status support ==-- */
+  --rs-online-color: var(--online-color) !important;
+  --rs-idle-color: var(--afk-color) !important;
+  --rs-dnd-color: var(--dnd-color) !important;
+  --rs-offline-color: gray !important;
+  --rs-invisible-color: gray !important;
+  --rs-streaming-color: var(--stream-color) !important;
 }
