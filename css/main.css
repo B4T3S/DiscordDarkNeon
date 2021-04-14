@@ -1007,6 +1007,111 @@
   background-color: var(--close-button)  !important;
 }
 
+/* --== Style Private calls/Streams ==-- */
+
+.iconBadge-3qSJIw.participating-1NvRVd {
+  background-color: var(--highlight);
+  color: var(--background);
+}
+
+.searchBar-3dMhjb {
+  background-color: var(--background);
+}
+
+.colorable-1bkp8v.red-33-Lnk {
+  background-color: var(--background);
+  border: 1px solid var(--close-button);
+  transition-duration: .3s;
+}
+
+.colorable-1bkp8v.red-33-Lnk div svg path {
+  fill: var(--close-button);
+  transition-duration: .3s;
+}
+
+.colorable-1bkp8v.red-33-Lnk:hover {
+  background-color: var(--close-button);
+}
+
+.colorable-1bkp8v.red-33-Lnk:hover div svg path {
+  fill: var(--background);
+}
+
+.avatarSpeaking-2c8-9i, .border-3dQmSY.speaking-WDn8Wm {
+  box-shadow: inset 0 0 0 2px var(--online-color),inset 0 0 0 3px var(--background);
+}
+
+.background-ujHpbY {
+  background-color: var(--background) !important;
+  box-shadow: inset 0 0 0 2px var(--highlight),inset 0 0 0 3px var(--background);
+  border-radius: 9px;
+}
+
+.liveLarge-3zs2Zq {
+  background-color: var(--close-button) !important;
+  color: var(--background);
+}
+
+.videoWrapper-2v09vt {
+  background-color: var(--background);
+}
+
+.status-254fhp.interactive-3JkJV4:hover svg path {
+  fill: var(--highlight);
+}
+
+.overlayTitle-8IcS01 {
+  color: var(--highlight);
+}
+
+.centerButton-3CaNcJ .centerIcon-2G6o-T {
+  transition-duration: .3s !important;
+} /* --== TODO: FIND OUT WHY THIS SHIT DOESN'T DO ANYTHING!!! ==-- */
+
+.contextMenuContainer-2HlOMK svg foreignObject button {
+  background-color: var(--background) !important;
+  box-shadow: inset 0 0 0 2px var(--highlight);
+  color: var(--highlight) !important;
+  transition-duration: .3s;
+}
+
+.contextMenuContainer-2HlOMK svg foreignObject button div svg {
+  color: var(--highlight) !important;
+  transition-duration: .3s !important;
+}
+
+.contextMenuContainer-2HlOMK:hover svg foreignObject button {
+  background-color: var(--highlight) !important;
+}
+
+.contextMenuContainer-2HlOMK:hover svg foreignObject button div svg {
+  transition-duration: .3s !important;
+  background-color: var(--highlight) !important;
+  color: var(--background) !important;
+}
+
+.contextMenuNub-3yOOYo {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight);
+  transition-duration: .3s;
+}
+
+.contextMenuNub-3yOOYo svg path {
+  stroke: var(--highlight);
+}
+
+.contextMenuNub-3yOOYo:hover {
+  background-color: var(--highlight) !important;
+}
+
+.contextMenuNub-3yOOYo:hover svg path {
+  stroke: var(--background);
+}
+
+.colorDefault-2K3EoJ .checkbox-3s5GYZ, .colorDefault-2K3EoJ .radioSelection-1HmrQS {
+  color: var(--highlight);
+}
+
 /* --== Hide weird unused stuff ==-- */
 .theme-dark .children-19S4PO:after, .form-2fGMdU::before {
   display: none;
