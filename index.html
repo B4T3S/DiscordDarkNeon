@@ -52,6 +52,7 @@
                 <input type="range" min="0" max="255" value="255" step="1" class="slider" id="customB" oninput="updateColors()" onchange="logColor()">
               </div>
               <p class="card-text">Just edit the <b class="neon">--rgb-highlight</b> variable in your DarkNeon.theme.css file!</p>
+              <p>(The color you have currently created would be <b class="neon", id="rgbText">4, 217, 255</b> btw.)</p>
             </div>
           </div>
         </div>
@@ -77,6 +78,17 @@
         </div>
         <div class="col-sm-4"></div>
       </div>
+      <div class="row gx-5">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+          <div class="container flex-column justify-content-center pt-5">
+            <h2 class="d-flex justify-content-center">Don't like the Theme?</h2>
+            <h2 class="d-flex justify-content-center">Check out my other theme!</h2>
+            <a href="https://commandcrafterhd.github.io/Fallout4TerminalTheme/" class="button m-5 d-flex justify-content-center py-2">Fallout 4 Terminal</a>
+          </div>
+        </div>
+        <div class="col-sm-3"></div>
+      </div>
     </div>
 
     <script type="text/javascript">
@@ -84,6 +96,7 @@
       var customR = document.getElementById("customR");
       var customG = document.getElementById("customG");
       var customB = document.getElementById("customB");
+      var rgbText = document.getElementById("rgbText");
 
       function rgbToHex(r, g, b) {
         return "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
@@ -100,6 +113,7 @@
 
       function updateColors() {
         root.style.setProperty('--highlight', '#' + decimalToHex(customR.value) + decimalToHex(customG.value) + decimalToHex(customB.value));
+        rgbText.innerHTML = customR.value + ", " + customG.value + ", " + customB.value;
       }
 
       function logColor() {
