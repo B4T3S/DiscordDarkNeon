@@ -1006,6 +1006,18 @@
   color: var(--background);
 }
 
+/* --== Style BD "public" button ==-- */
+#bd-pub-button {
+  border: 1px solid var(--highlight);
+  color: var(--highlight);
+  transition-duration: .3s;
+}
+
+#bd-pub-button:hover {
+  background-color: var(--highlight);
+  color: var(--background);
+}
+
 /* --== Style the "Block" button in new DM's ==-- */
 .container-1fnzfI button:nth-of-type(2) {
   border-color: var(--close-button) !important;
