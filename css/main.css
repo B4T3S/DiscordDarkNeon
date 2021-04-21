@@ -1151,6 +1151,11 @@
   background-color: rgba(var(--rgb-highlight), 0.3);
 }
 
+/* --== Style "Two-factor enabled" text ==-- */
+.userSettingsSecurity-3IYeMF .isEnabled-24g9qA {
+  color: var(--online-color);
+}
+
 /* --== Hide weird unused stuff ==-- */
 .theme-dark .children-19S4PO:after, .form-2fGMdU::before {
   display: none;
