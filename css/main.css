@@ -369,8 +369,12 @@
 }
 
 /* --== Style the settings menu(s) ==-- */
-.bd-switch-checked, .bd-addon-views .bd-view-button.selected, .bd-button {
+.bd-switch-checked div, .bd-addon-views .bd-view-button.selected div, .bd-button div {
   background-color: var(--highlight);
+}
+
+.bd-switch {
+  background-color: unset;
 }
 
 .bd-setting-item .bd-select:hover {
