@@ -1134,6 +1134,23 @@
   color: var(--highlight);
 }
 
+/* --== Style server-folders ==-- */
+.folderIconWrapper-1_bOZe div svg path {
+  fill: var(--highlight);
+}
+
+.folderIconWrapper-1_bOZe {
+  background-color: rgba(var(--rgb-highlight), 0.3);
+}
+
+.closedFolderIconWrapper-2sTcE6 {
+  background-color: rgba(var(--rgb-highlight), 0.3);
+}
+
+.expandedFolderBackground-1cujaW {
+  background-color: rgba(var(--rgb-highlight), 0.3);
+}
+
 /* --== Hide weird unused stuff ==-- */
 .theme-dark .children-19S4PO:after, .form-2fGMdU::before {
   display: none;
