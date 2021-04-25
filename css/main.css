@@ -82,6 +82,10 @@
 	z-index: 1;
 }
 
+.userPopout-3XzG_A {
+  --user-popout-position: center
+}
+
 .root-SR8cQa {
   transform: translateZ(0);
 }
