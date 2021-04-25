@@ -401,7 +401,7 @@
 /* --== Style twitch widget on user popout ==-- */
 
 .activity-11LB_k {
-  background-color: var(--background);
+  background: transparent;
 }
 
 /* --== Style the online/afk/dnd icons ==-- */
