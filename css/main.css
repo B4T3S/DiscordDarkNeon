@@ -50,16 +50,12 @@
     background-color: var(--background);
 }
 
-.headerTop-3C2Zn0 {
-  background: transparent;
-}
-
 .userPopout-3XzG_A {
 	transform:translateZ(0);
 }
 
 .headerTop-3C2Zn0 {
-    background: transparent;
+    background: transparent !important;
     background-color: unset;
 }
 
