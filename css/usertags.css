@@ -1,8 +1,8 @@
 /* --== Author tag ==-- */
-[user_by_bdfdb="137259132305539072"] .username-1A8OIy::after {
+[data-user-id="137259132305539072"] .username-1A8OIy::after {
   content: '';
   display: inline-block;
-  -webkit-mask-image: url("https://commandcrafterhd.gitlab.io/bates-discord-theme/svg/pencil.svg");
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/pencil.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   background-color: var(--highlight);
@@ -12,10 +12,10 @@
   margin-left: 5px;
 }
 
-[user_by_bdfdb="137259132305539072"] .nameAndDecorators-5FJ2dg::after {
+[data-user-id="137259132305539072"] .nameAndDecorators-5FJ2dg::after {
   content: '';
   display: inline-block;
-  -webkit-mask-image: url("https://commandcrafterhd.gitlab.io/bates-discord-theme/svg/pencil.svg");
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/pencil.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   background-color: var(--highlight);
@@ -27,10 +27,10 @@
 
 /* --== Quality control tag ==-- */
 
-[user_by_bdfdb="360790467224403969"] .username-1A8OIy::after {
+[data-user-id="360790467224403969"] .username-1A8OIy::after {
   content: '';
   display: inline-block;
-  -webkit-mask-image: url("https://commandcrafterhd.gitlab.io/bates-discord-theme/svg/magnifying_glass_icon.svg");
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/magnifying_glass_icon.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   background-color: var(--highlight);
@@ -40,10 +40,10 @@
   margin-left: 5px;
 }
 
-[user_by_bdfdb="360790467224403969"] .nameAndDecorators-5FJ2dg::after {
+[data-user-id="360790467224403969"] .nameAndDecorators-5FJ2dg::after {
   content: '';
   display: inline-block;
-  -webkit-mask-image: url("https://commandcrafterhd.gitlab.io/bates-discord-theme/svg/magnifying_glass_icon.svg");
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/magnifying_glass_icon.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   background-color: var(--highlight);
@@ -55,10 +55,10 @@
 
 /* --== Secret Tag! :o ==-- */
 
-[user_by_bdfdb="314436637465772033"] .username-1A8OIy::after {
+[data-user-id="314436637465772033"] .username-1A8OIy::after {
   content: '';
   display: inline-block;
-  -webkit-mask-image: url("https://commandcrafterhd.gitlab.io/bates-discord-theme/svg/cat.svg");
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/cat.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   background-color: var(--highlight);
@@ -68,10 +68,10 @@
   margin-left: 5px;
 }
 
-[user_by_bdfdb="314436637465772033"] .nameAndDecorators-5FJ2dg::after {
+[data-user-id="314436637465772033"] .nameAndDecorators-5FJ2dg::after {
   content: '';
   display: inline-block;
-  -webkit-mask-image: url("https://commandcrafterhd.gitlab.io/bates-discord-theme/svg/cat.svg");
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/cat.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   background-color: var(--highlight);
