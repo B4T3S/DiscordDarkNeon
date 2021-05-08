@@ -2,7 +2,7 @@
 [data-user-id="137259132305539072"] .username-1A8OIy::after {
   content: '';
   display: inline-block;
-  -webkit-mask-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/pencil.svg");
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/crayon.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   background-color: var(--highlight);
@@ -15,7 +15,7 @@
 [data-user-id="137259132305539072"] .nameAndDecorators-5FJ2dg::after {
   content: '';
   display: inline-block;
-  -webkit-mask-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/pencil.svg");
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/crayon.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   background-color: var(--highlight);
@@ -62,8 +62,8 @@
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   background-color: var(--highlight);
-  width: 5px !important;
-  height: 5px !important;
+  width: 10px !important;
+  height: 10px !important;
   padding: 3px;
   margin-left: 5px;
 }
@@ -75,8 +75,8 @@
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   background-color: var(--highlight);
-  width: 5px !important;
-  height: 5px !important;
+  width: 10px !important;
+  height: 10px !important;
   padding: 3px;
   margin-left: 5px;
 }
