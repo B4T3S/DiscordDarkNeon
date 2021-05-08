@@ -646,8 +646,12 @@
   color: var(--highlight);
 }
 
-.containerDefault-3tr_sE div div svg {
-  width: 0px;
+.arrow-gKvcEx {
+  display: none;
+}
+
+.container-2ax-kl .overflow-WK9Ogt {
+  max-width: 8vw;
 }
 
 .containerDefault-3tr_sE::before {
