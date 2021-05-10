@@ -426,6 +426,17 @@
   border-radius: 5px;
 }
 
+/* --== Replace the green arrows on the join-messages ==-- */
+/* --== DISCORD. WHY is this an image instead of just another SVG code?! IT'S THREE LINES! ==-- */
+.icon-2Po-VO {
+  width: 0px;
+}
+
+.icon-2Po-VO:after {
+  content: ">";
+  color: var(--highlight);
+}
+
 /* --== Style the settings menu(s) ==-- */
 .bd-switch-checked div, .bd-addon-views .bd-view-button.selected div, .bd-button div {
   background-color: var(--highlight);
