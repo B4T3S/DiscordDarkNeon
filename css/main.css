@@ -410,25 +410,15 @@
 
 /* --== Style the online/afk/dnd icons ==-- */
 
-.pointerEvents-2zdfdO[fill="#43b581"] {
-  fill: var(--online-color);
-}
-
-.cursorDefault-dsQJ1n rect[fill="#43b581"] { /* Why are you like this discord? */
-  fill: var(--online-color);
-}
-
-.pointerEvents-2zdfdO[fill="#faa61a"] {
-  fill: var(--afk-color);
-}
-
-.pointerEvents-2zdfdO[fill="#f04747"] {
-  fill: var(--dnd-color);
-}
-
-.pointerEvents-2zdfdO[fill="#593695"] {
-  fill: var(--streaming-color);
-}
+/* --== THIS PART WAS YOINKED FROM _DAVID_! THANKS DAVID! ==-- */
+#app-mount .wrapper-3t9DeA rect[fill="#593695"],
+#app-mount .wrapper-3t9DeA rect[mask*=streaming] {fill: var(--streaming-color)}
+#app-mount .wrapper-3t9DeA rect[fill="#43b581"],
+#app-mount .wrapper-3t9DeA rect[mask*=online] {fill: var(--online-color)}
+#app-mount .wrapper-3t9DeA rect[fill="#faa61a"],
+#app-mount .wrapper-3t9DeA rect[mask*=idle] {fill: var(--afk-color)}
+#app-mount .wrapper-3t9DeA rect[fill="#f04747"],
+#app-mount .wrapper-3t9DeA rect[mask*=dnd] {fill: var(--dnd-color)}
 
 /* --== Style right click list ==-- */
 .scroller-3BxosC {
