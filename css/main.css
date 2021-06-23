@@ -44,10 +44,10 @@
 
 /* VERSION INFO */
 .info-1VyQPT:last-child::after {
-  content: "Dark Neon Version 1.2.81";
+  content: "Dark Neon Version 1.2.82";
   font-size: 12px;
   line-height: 16px;
-  color: var(--blurple);
+  color: var(--highlight);
 }
 /* VERSION INFO */
 
