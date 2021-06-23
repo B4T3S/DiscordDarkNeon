@@ -42,6 +42,15 @@
   --textbox-markdown-syntax: var(--background);
 }
 
+/* VERSION INFO */
+.info-1VyQPT:last-child::after {
+  content: "Dark Neon Version 1.2.81";
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--blurple);
+}
+/* VERSION INFO */
+
 /*
 =========================================== USRBG Popouts by Tropix126. ===========================================
 */
@@ -166,10 +175,6 @@
 .section-2gLsgF {
   background-color: var(--background);
   border-left: 3px solid var(--highlight);
-}
-
-.content-3YMskv, .peopleList-3c4jOR {
-  background-color: var(--background);
 }
 
 /* --== Style Spoiler warning ==-- */
