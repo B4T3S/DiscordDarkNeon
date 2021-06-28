@@ -80,3 +80,19 @@
   padding: 3px;
   margin-left: 5px;
 }
+
+/* --== PATREON Tags! ==-- */
+/* My first ever patreon! Ayy! */
+[data-user-id="726156535100735579"] .username-1A8OIy::after, [data-user-id="726156535100735579"] .nameAndDecorators-5FJ2dg::after {
+  content: '';
+  display: inline-block;
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/Patreon_logomark.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  background-color: var(--highlight);
+  width: 10px !important;
+  height: 10px !important;
+  padding: 3px;
+  padding-top: 3px;
+  margin-left: 5px;
+}
