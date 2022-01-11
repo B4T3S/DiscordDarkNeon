@@ -45,7 +45,7 @@
 
 /* VERSION INFO */
 .info-1sUqUG:last-child::after {
-  content: "Dark Neon Version 1.3.5";
+  content: "Dark Neon Version 1.3.6";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -174,7 +174,7 @@ s {
 }
 
 /* --== Add some FANCY borders! ==-- */
-.scrollableContainer-2NUZem, .wrapper-2aW0bm, .quickswitcher-3JagVE,
+.scrollableContainer-15eg7h, .wrapper-2aW0bm, .quickswitcher-3JagVE,
 .input-2VB9rf, .markup-2BOw-j code, .theme-dark .uploadModal-2ifh8j {
   border: 1px solid var(--highlight);
 }
