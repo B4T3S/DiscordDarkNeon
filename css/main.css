@@ -45,7 +45,7 @@
 
 /* VERSION INFO */
 .info-1sUqUG:last-child::after {
-  content: "Dark Neon Version 1.3.6";
+  content: "Dark Neon Version 1.3.7";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -91,11 +91,11 @@
 }
 
 /* --== Style the unread message bar ==-- */
-.isUnread-3Ef-o9 {
+.isUnread-3Lojb- {
   border-color: var(--highlight);
 }
 
-.isUnread-3Ef-o9 .content-1o0f9g {
+.isUnread-3Lojb- .content-1o0f9g {
   color: var(--highlight);
   border: 1px solid var(--highlight);
 }
@@ -109,12 +109,12 @@
   border-radius: 2px;
 }
 
-.unreadPillCapStroke-7rkHbg {
+.unreadPillCapStroke-1nE1Q8 {
   color: var(--highlight);
   fill: var(--highlight);
 }
 
-.unreadPill-2HyYtt {
+.unreadPill-3nEWYM {
   background-color: var(--highlight);
   color: var(--background) !important;
 }
@@ -202,20 +202,20 @@ s {
   background-color: var(--highlight);
 }
 
-.newMessagesBar-265mhP {
+.newMessagesBar-1hF-9G {
   margin-top: 1vh;
   background-color: var(--background);
   border: 1px solid var(--highlight);
   border-radius: 5px;
 }
 
-.barButtonAlt-mYL1lj {
+.barButtonAlt-TQoCdZ {
   border-left: none !important;
   border-top-left-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
 }
 
-.barButtonMain-3K-jeJ, .span-1mKrMp {
+.barButtonMain-2GIx4o, .span-3lFnWr {
   border-right: none !important;
   border-top-right-radius: 0px !important;
   border-bottom-right-radius: 0px !important;
