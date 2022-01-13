@@ -45,7 +45,7 @@
 
 /* VERSION INFO */
 .info-1sUqUG:last-child::after {
-  content: "Dark Neon Version 1.3.7";
+  content: "Dark Neon Version 1.3.8";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -244,25 +244,25 @@ s {
 }
 
 /* --== Style Mentions in messages ==-- */
-.mentioned-xhSam7:before {
+.mentioned-Tre-dv:before {
   background-color: var(--highlight);
 }
 
-.mentioned-xhSam7 {
+.mentioned-Tre-dv {
   background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0.4) 0%, rgba(var(--rgb-highlight), 0) 100%);
 }
 
-.mentioned-xhSam7:hover {
+.mentioned-Tre-dv:hover {
   background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0.4) 0%, rgba(var(--rgb-highlight), 0) 100%) !important;
 }
 
-.wrapper-3WhCwL {
-  color: var(--highlight);
-  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0.2) 0%, rgba(var(--rgb-highlight), 0.2) 100%);
+.wrapper-1ZcZW- {
+  color: var(--highlight) !important;
+  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0.2) 0%, rgba(var(--rgb-highlight), 0.2) 100%) !important;
 }
 
-.wrapper-3WhCwL:hover {
-  color: var(--highlight);
+.wrapper-1ZcZW-:hover {
+  color: var(--highlight) !important;
   background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0.4) 0%, rgba(var(--rgb-highlight), 0.4) 100%) !important;
 }
 
