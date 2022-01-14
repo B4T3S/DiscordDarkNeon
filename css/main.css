@@ -45,7 +45,7 @@
 
 /* VERSION INFO */
 .info-1sUqUG:last-child::after {
-  content: "Dark Neon Version 1.3.8";
+  content: "Dark Neon Version 1.3.9";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -273,8 +273,8 @@ s {
 }
 
 /* --== Style autocomplete popout ==-- */
-.autocompleteInner-zh20B_, .theme-dark .selected-1Tbx07 {
-  background-color: var(--background);
+.autocompleteInner-y1mjDl, .selected-3H3-RC {
+  background-color: var(--background) !important;
   border: 1px solid var(--highlight);
 }
 
