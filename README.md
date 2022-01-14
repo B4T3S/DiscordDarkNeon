@@ -1,10 +1,15 @@
-<h1>Dark Neon Discord Theme</h1>
-<img src="http://cegledi.net/uploads/18-04-2021_364.png">
+<div align="center">
+  <a href="https://discord.gg/6qd3SkP6Ch" target="_blank"><img src="https://img.shields.io/discord/931137677695266856?label=Discord&logo=Discord"></img></a>
+  <a href="https://www.paypal.com/paypalme/floriancegledi" target="_blank"><img src="https://img.shields.io/badge/PayPal-Support%20me%3F-blue"></img></a>
+  <a href="https://www.patreon.com/bates" target="_blank"><img src="https://img.shields.io/badge/Patreon-Support%20me%3F-f96854"></img></a>
+</div>
+<h1 align="center">Dark Neon Discord Theme</h1>
+<img src="https://commandcrafterhd.github.io/DiscordDarkNeon/img/DarkNeon.png">
 
 <h2>About</h2>
 
 This is the first Discord theme I ever worked on!
-It's goal is basically to completely black out discord and add some slight neon touches!
+Its goal is basically to completely black out discord and add some slight neon touches!
 
 <h2>Installation</h2>
 
@@ -12,7 +17,7 @@ Installing betterdiscord themes is really easy!
 - Go into discord's settings
 - Go to "Themes"
 - Click on "Open theme folder"
-- Move the .theme.css file you downloaded into folder you just opened
+- Move the .theme.css file you downloaded into the folder you just opened
 - Click the checkbox in the top-right corner of the theme in discord to enable it
 
 <h2>Customization</h2>
@@ -20,6 +25,9 @@ Installing betterdiscord themes is really easy!
 You can easily customize this theme by editing the .theme.css file! Just change the variables to whatever you want!
 If you need help finding the right value(s), head on over to [the theme's website](https://commandcrafterhd.github.io/DiscordDarkNeon/) which has a handy color-picker!
 
+<h2>Need more help?</h2>
+
+No worries! Just head on over to my <a href="https://discord.gg/6qd3SkP6Ch" target="_blank">Discord Server</a>, you'll be sure to find whatever help you need customizing over there! :)
+
 <h2>Want to support me?</h2>
-By request I opened a [Patreon](https://www.patreon.com/bates)! You can get a cool badge behind your name in Discord by pledging 5$ or more per month!
-Of course you can also just send me a tip over at [PayPal](https://www.paypal.com/paypalme/floriancegledi)!
+If you want to support me, you can do so either on <a href="https://www.patreon.com/bates" target="_blank">Patreon</a> or <a href="https://www.paypal.com/paypalme/floriancegledi" target="_blank">Paypal</a>!
