@@ -45,7 +45,7 @@
 
 /* VERSION INFO */
 .info-1sUqUG:last-child::after {
-  content: "Dark Neon Version 1.3.9";
+  content: "Dark Neon Version 1.3.10";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -566,6 +566,18 @@ s {
   color: var(--highlight);
 }
 
+/* --== Style "Join"/"Joined" button on invites ==-- */
+.button-2b4VEQ {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight);
+  color: var(--highlight) !important;
+}
+
+.button-2b4VEQ:hover {
+  background-color: var(--highlight) !important;
+  color: var(--background) !important;
+}
+
 /* --== Style pin's new-tag ==-- */
 .iconBadge-qZ4Ksk {
   background-color: var(--highlight);
@@ -755,20 +767,21 @@ s {
 }
 
 /* --== Style search bar in the top-right ==-- */
-.resultsGroup-r_nuzN {
+.resultsGroup-1BPR25 {
   background-color: var(--background);
 }
 
-.theme-dark .option-96V44q.selected-rZcOL- {
-  background-color: var(--background);
+.searchFilter-2UfsDk {
+  background-color: var(--highlight) !important;
+  color: var(--background);
+}
+
+.option-2KkUJO:after {
+  display: none;
 }
 
 .theme-dark .option-96V44q.selected-rZcOL- span, .theme-dark .option-96V44q.selected-rZcOL- svg {
   color: var(--highlight);
-}
-
-.theme-dark .option-96V44q:after {
-  display: none;
 }
 
 .resultsGroup-r_nuzN .searchLearnMore-3SQUAj a:hover svg g path {
