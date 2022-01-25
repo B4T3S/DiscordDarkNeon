@@ -45,7 +45,7 @@
 
 /* VERSION INFO */
 .info-1sUqUG:last-child::after {
-  content: "Dark Neon Version 1.3.12";
+  content: "Dark Neon Version 1.3.13";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -574,6 +574,22 @@ s {
 }
 
 .button-2b4VEQ:hover {
+  background-color: var(--highlight) !important;
+  color: var(--background) !important;
+}
+
+/* --== Style in-server stream previews ==-- */
+.body-2WIpo7 {
+  background-color: var(--background);
+}
+
+.button-TGAkj4 {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight) !important;
+  color: var(--highlight) !important;
+}
+
+.button-TGAkj4:hover {
   background-color: var(--highlight) !important;
   color: var(--background) !important;
 }
