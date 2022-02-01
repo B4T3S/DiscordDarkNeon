@@ -45,7 +45,7 @@
 
 /* VERSION INFO */
 .info-1sUqUG:last-child::after {
-  content: "Dark Neon Version 1.3.15";
+  content: "Dark Neon Version 1.3.16";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -59,6 +59,10 @@
 /* --== Styling the weird "Connect PlayStation Network" popout ==-- */
 .container-xB0xPf {
   background-color: var(--background);
+}
+
+.pointer-1j6vDv {
+  display: none;
 }
 
 /* --== Styling custom User Popouts ==-- */
