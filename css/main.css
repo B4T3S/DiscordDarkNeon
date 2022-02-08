@@ -45,7 +45,7 @@
 
 /* VERSION INFO */
 .info-1sUqUG:last-child::after {
-  content: "Dark Neon Version 1.3.16";
+  content: "Dark Neon Version 1.3.17";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -291,6 +291,15 @@ s {
 .pictureInPictureVideo-2puO2Q {
   background-color: var(--background);
   border: 1px solid var(--highlight);
+}
+
+/* --== Style Reaction list ==-- */
+.scroller-2GkvCq, .reactors-1VXca7 {
+  background-color: var(--background) !important;
+}
+
+.scroller-2GkvCq > div > .colorStandard-21JIj7 {
+  color: var(--highlight);
 }
 
 /* --== Style ping indicator ==-- */
