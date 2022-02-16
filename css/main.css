@@ -45,7 +45,7 @@
 
 /* VERSION INFO */
 .info-1sUqUG:last-child::after {
-  content: "Dark Neon Version 1.3.20";
+  content: "Dark Neon Version 1.3.21";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -806,7 +806,7 @@ s {
 }
 
 /* --== Style search bar in the top-right ==-- */
-.resultsGroup-1BPR25, .queryContainer-ZunrLZ {
+.resultsGroup-cfY57t, .queryContainer-ZunrLZ {
   background-color: var(--background) !important;
 }
 
@@ -815,15 +815,15 @@ s {
   color: var(--background);
 }
 
-.option-2KkUJO:after {
+.option-ayUoaq:after {
   display: none;
 }
 
-.theme-dark .option-2KkUJO.selected-rZcOL- span, .theme-dark .option-2KkUJO.selected-rZcOL- svg {
+.theme-dark .option-ayUoaq.selected-rZcOL- span, .theme-dark .option-ayUoaq.selected-rZcOL- svg {
   color: var(--highlight);
 }
 
-.resultsGroup-1BPR25 .searchLearnMore-7__o_n a:hover svg g path {
+.resultsGroup-cfY57t .searchLearnMore-7__o_n a:hover svg g path {
   fill: var(--highlight);
 }
 
