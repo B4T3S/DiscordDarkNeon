@@ -45,7 +45,7 @@
 
 /* VERSION INFO */
 .info-3pQQBb:last-child::after {
-  content: "Dark Neon Version 1.3.22";
+  content: "Dark Neon Version 1.3.23";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -946,6 +946,21 @@ s {
 .theme-dark .selectedTier-24Xj0k .tierMarker-Vw1C95, .theme-light .selectedTier-24Xj0k .tierMarker-Vw1C95,
 .barForeground-2kwBa_, .tierMarkerAccomplished-1SkbEJ, .tierMarkerInProgress-2Tdxjz[style="background: #ff73fa;"] {
   background-color: var(--highlight) !important;
+}
+
+/* --== Style Server Boost Status/Stickers page ==-- */
+
+.tierBody-1d3UiS {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight);
+  border-top: none;
+}
+
+.tierHeaderContent-2SPBAA {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight);
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: none;
 }
 
 /* --== Make sure Selected Role Name is still readable in Server-Role menu ==-- */
