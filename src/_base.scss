@@ -1,0 +1,53 @@
+/* --== Set the background color/image ==-- */
+body {
+  background-color: var(--background);
+  background-image: var(--background-image);
+  background-position: var(--background-position);
+  background-size: var(--background-size);
+  backdrop-filter: blur(var(--background-blur)) brightness(var(--background-brightness));
+}
+
+/* --== Make everything (which needs to be) transparent ==-- */
+// The main App background
+.appMount-2yBXZl, .app-2CXKsg, .bg-1QIAus,
+// The guild list
+.guilds-2JjMmN, .scroller-3X7KbA,
+// The channel list
+.sidebar-1tnWFu, .container-1NXEtd,
+// The mute/deafen/settings panel
+.panels-3wFtMD,
+// The chat
+.chat-2ZfjoI,
+// The title bar
+.title-31SJ6t,
+// The user list
+.container-2o3qEW, .members-3WRCEx, .content-2a4AW9,
+// The chat box
+.scrollableContainer-15eg7h, .channelTextArea-1VQBuV,
+// The friends page
+.container-2cd8Mz, .section-3G9aLW, .nowPlayingColumn-1eCBCN,
+.container-1oAagU, .itemCard-3Etziu, .section-3G9aLW, .inset-SbsSFp,
+.container-ZMc96U, .privateChannels-oVe7HL, .scroller-WSmht3 {
+  background: transparent !important;
+}
+
+/* --== Style the close button ==-- */
+.winButtonClose-3Q8ZH5 {
+  color: var(--close-button);
+  transition: .3s;
+
+  &:hover {
+    background-color: var(--close-button);
+  }
+
+  svg {
+    path {
+      fill: var(--highlight);
+    }
+  }
+}
+
+/* --== Style the Active Now page ==-- */
+.itemCard-3Etziu, .section-3G9aLW {
+  border: 1px solid var(--highlight);
+}
