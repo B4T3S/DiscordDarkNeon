@@ -207,18 +207,6 @@ s, .strikethrough-OlwqlY {
   color: var(--background);
 }
 
-/* --== Style autocomplete popout ==-- */
-.autocompleteInner-y1mjDl, .selected-3H3-RC {
-  background-color: var(--background) !important;
-  border: 1px solid var(--highlight);
-}
-
-/* --== Style popout video player ==-- */
-.pictureInPictureVideo-2puO2Q {
-  background-color: var(--background);
-  border: 1px solid var(--highlight);
-}
-
 /* --== Style Reaction list ==-- */
 .scroller-2GkvCq, .reactors-1VXca7 {
   background-color: var(--background) !important;
@@ -241,5 +229,220 @@ s, .strikethrough-OlwqlY {
 }
 
 .rtcConnectionStatusConnected-1c73OK {
+  color: var(--highlight);
+}
+
+/* --== Replace the green arrows on the join-messages ==-- */
+/* --== DISCORD. WHY is this an image instead of just another SVG code?! IT'S THREE LINES! ==-- */
+.icon-JRJzJz {
+  width: 0px;
+}
+
+.icon-JRJzJz:after {
+  content: ">";
+  color: var(--highlight);
+}
+
+/* --== Style "Join"/"Joined" button on invites ==-- */
+.button-2b4VEQ {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight);
+  color: var(--highlight) !important;
+
+  &:hover {
+    background-color: var(--highlight) !important;
+    color: var(--background) !important;
+  }
+}
+
+/* --== Style (edited) tag ==-- */
+.cozy-VmLDNB .contents-2MsGLg div span time span {
+  color: var(--highlight);
+}
+
+/* --== Style "day change" spacers in chat ==-- */
+.group-spacing-16 .divider-IqmEqJ.hasContent-1y12-u {
+  background-color: var(--background);
+}
+
+.group-spacing-16 .divider-IqmEqJ.hasContent-1y12-u span {
+  color: var(--highlight);
+  padding-right: 8px;
+}
+
+.group-spacing-16 .divider-IqmEqJ.hasContent-1y12-u::before {
+  content: '';
+  width: 100%;
+  height: 2px;
+  margin-right: 0px;
+  display: inline-block;
+  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0) 0%, rgba(var(--rgb-highlight), 1) 100%);
+}
+
+.group-spacing-16 .divider-IqmEqJ.hasContent-1y12-u::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  margin-left: -3px;
+  display: inline-block;
+  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 1) 0%, rgba(var(--rgb-highlight), 0) 100%);
+}
+
+/* --== Style "You're viewing older messages" bar ==-- */
+.jumpToPresentBar-1cEnH0 {
+  background-color: var(--highlight);
+}
+
+.jumpToPresentBar-1cEnH0 button {
+  color: var(--background);
+}
+
+/* --== Style Reply-marker ==-- */
+.replying-eZ7p5z:before {
+  background-color: var(--highlight);
+}
+
+/* --== Style the "Block" button in new DM's ==-- */
+.container-12Vzf8 button:nth-of-type(2) {
+  border-color: var(--close-button) !important;
+  color: var(--close-button) !important;
+}
+
+.container-12Vzf8 button:nth-of-type(2):hover {
+  color: var(--background) !important;
+  background-color: var(--close-button)  !important;
+}
+
+/* --== Style the "Find or start a conversation" button ==-- */
+.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 1px solid var(--highlight);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  color: var(--highlight);
+  transition-duration: .3s;
+}
+
+.searchBar-3TnChZ .searchBarComponent-3N7dCG:hover {
+  background-color: var(--highlight);
+  color: var(--background);
+}
+
+/* --== Style search bar in the top-right ==-- */
+.resultsGroup-cfY57t, .queryContainer-ZunrLZ {
+  background-color: var(--background) !important;
+}
+
+.searchFilter-2UfsDk {
+  background-color: var(--highlight) !important;
+  color: var(--background);
+}
+
+.option-ayUoaq:after {
+  display: none;
+}
+
+.theme-dark .option-ayUoaq.selected-rZcOL- span, .theme-dark .option-ayUoaq.selected-rZcOL- svg {
+  color: var(--highlight);
+}
+
+.resultsGroup-cfY57t .searchLearnMore-7__o_n a:hover svg g path {
+  fill: var(--highlight);
+}
+
+.searchBar-zdmu7v:hover .iconLayout-SqV3nb div svg path,
+.searchBar-zdmu7v[aria-expanded="true"] .iconLayout-SqV3nb div svg path {
+  fill: var(--highlight);
+}
+
+.circular-3Fmqjd > circle {
+  stroke: var(--highlight) !important;
+}
+
+.searchBar-zdmu7v:hover div div div {
+  color: var(--highlight);
+}
+
+.searchBar-zdmu7v:hover[aria-expanded="true"] div div div {
+  color: inherit;
+}
+
+/* --== Style channelgroup titles ==-- */
+.containerDefault-3TQ5YN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerDefault-3TQ5YN div div {
+  color: var(--highlight);
+}
+
+.arrow-2HswgU {
+  display: none;
+}
+
+.container-q97qHp .overflow-1wOqNV {
+  max-width: 8vw;
+}
+
+.containerDefault-3TQ5YN::before {
+  content: '';
+  width: 100%;
+  height: 2px;
+  margin-right: -11px;
+  display: inline-block;
+  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0) 0%, rgba(var(--rgb-highlight), 1) 100%);
+}
+
+.containerDefault-3TQ5YN::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  margin-left: -3px;
+  display: inline-block;
+  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 1) 0%, rgba(var(--rgb-highlight), 0) 100%);
+}
+
+/* --== Style pin's new-tag ==-- */
+.iconBadge-3Mmg92 {
+  background-color: var(--highlight);
+}
+
+/* --== Style member titles ==-- */
+.membersGroup-2eiWxl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--highlight);
+  padding: 0px;
+}
+
+.membersGroup-2eiWxl::before {
+  content: '';
+  width: 100%;
+  height: 2px;
+  margin-right: 3px;
+  display: inline-block;
+  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0) 0%, rgba(var(--rgb-highlight), 1) 100%);
+}
+
+.membersGroup-2eiWxl::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  margin-left: 3px;
+  display: inline-block;
+  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 1) 0%, rgba(var(--rgb-highlight), 0) 100%);
+}
+
+/* --== Style timestamps and Edit buttons ==-- */
+.operations-3q3u6E>a {
+  color: var(--highlight);
+}
+
+.cozy-VmLDNB .timestamp-p1Df1m.alt-1dvXnH {
   color: var(--highlight);
 }

@@ -1,7 +1,7 @@
 {
   "name": "dark-neon-theme",
   "version": "2.0.0",
-  "description": "<div align=\"center\">\r   <a href=\"https://discord.gg/6qd3SkP6Ch\" target=\"_blank\"><img src=\"https://img.shields.io/discord/931137677695266856?label=Discord&logo=Discord\"></img></a>\r   <a href=\"https://www.paypal.com/paypalme/floriancegledi\" target=\"_blank\"><img src=\"https://img.shields.io/badge/PayPal-Support%20me%3F-blue\"></img></a>\r   <a href=\"https://www.patreon.com/bates\" target=\"_blank\"><img src=\"https://img.shields.io/badge/Patreon-Support%20me%3F-f96854\"></img></a>\r </div>\r <h1 align=\"center\">Dark Neon Discord Theme</h1>\r <img src=\"https://commandcrafterhd.github.io/DiscordDarkNeon/img/DarkNeon.png\">",
+  "description": "Dark Neon theme for BetterDiscord.",
   "main": "",
   "scripts": {
     "build": "sass --style=compressed --no-source-map src/main.scss:css/main.css",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://gitlab.com/CommandCrafterHD/bates-discord-theme/issues"
   },
-  "homepage": "https://gitlab.com/CommandCrafterHD/bates-discord-theme#readme"
+  "homepage": "https://gitlab.com/CommandCrafterHD/bates-discord-theme#readme",
+  "dependencies": {
+    "sass": "^1.51.0",
+    "watch": "^1.0.2"
+  }
 }

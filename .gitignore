@@ -1,2 +1,4 @@
 css/main.css
 css/main.css.map
+node_modules
+package-lock.json

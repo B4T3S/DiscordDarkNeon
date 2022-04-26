@@ -1,0 +1,202 @@
+/* --== Style the "My Account" page ==-- */
+.accountProfileCard-lbN7n-, .background-3d_SjE, .fieldList-in8WkP {
+  background-color: var(--background);
+}
+
+.avatar-3mTjvZ {
+  border-color: var(--background);
+}
+
+/* --== Style some of the BD Setting controls ==-- */
+.bd-button.bd-button-danger {
+  background-color: var(--background);
+  border: 1px solid var(--close-button);
+  transition-duration: .3s;
+  margin-left: 2px;
+}
+
+.bd-button.bd-button-danger:hover {
+  background-color: var(--close-button) !important;
+}
+
+.bd-controls>.bd-addon-button:first-of-type {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+  transition-duration: .3s;
+  margin-right: 2px;
+}
+
+.bd-controls>.bd-addon-button:first-of-type:hover {
+  background-color: var(--highlight);
+}
+
+.bd-button {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+  color: var(--highlight);
+  transition-duration: .3s;
+}
+
+.bd-button:hover {
+  background-color: var(--highlight) !important;
+  color: var(--background);
+}
+
+.bd-addon-views svg path {
+  transition-duration: .3s;
+}
+
+.bd-addon-views svg:nth-child(1) {
+  fill: var(--highlight);
+}
+
+.bd-view-button:hover svg:nth-child(1), .bd-view-button.selected svg:nth-child(1) {
+  fill: var(--background);
+}
+
+/* --== Style the settings menu(s) ==-- */
+.bd-switch-checked div, .bd-addon-views .bd-view-button.selected div, .bd-button div {
+  background-color: var(--highlight);
+}
+
+.bd-switch {
+  background-color: unset;
+}
+
+.bd-setting-item .bd-select:hover {
+  border: 1px solid var(--highlight);
+}
+
+.bd-select .bd-select-options {
+  border: 1px solid var(--highlight);
+}
+
+.container-2nx-BQ[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] { /*For the checked ones*/
+  background-color: var(--highlight) !important;
+}
+.container-2nx-BQ[style*="background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] { /*For the unchecked ones*/
+  background-color: var(--close-button) !important;
+}
+
+.uploadModal-2ie9O_ .footer-VCsJQY.hasSpoilers-33hwf_ {
+  border-top: 1px solid var(--highlight);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.contents-3ca1mk {
+  background-image: none !important;
+}
+
+.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B {
+  color: var(--highlight);
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+  transition-duration: .3s;
+}
+
+.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {
+  color: var(--background) !important;
+  background-color: var(--highlight) !important;
+}
+
+.side-2ur1Qk .item-3XjbnG[style*="color: rgb(114, 137, 218);"] {
+  color: var(--interactive-normal) !important;
+
+  &:hover {
+    color: var(--highlight) !important;
+  }
+}
+
+.colorDanger-3n-KnP, .colorDanger-3n-KnP .checkbox-hADx5o, .colorDanger-3n-KnP .radioSelection-1UHp0b {
+  color: var(--close-button);
+  transition-duration: .3s;
+}
+
+.colorDanger-3n-KnP:hover, .colorDanger-3n-KnP .checkbox-hADx5o, .colorDanger-3n-KnP .radioSelection-1UHp0b {
+  background-color: var(--close-button) !important;
+  color: var(--background) !important;
+}
+
+.focused-3qFvc8 {
+  color: var(--highlight) !important;
+  background-color: var(--background) !important;
+}
+
+.menu-3A7xxX div svg path {
+  transition-duration: .3s;
+}
+
+.menu-3A7xxX div:hover svg path {
+  fill: var(--highlight);
+}
+
+.theme-dark .closeButton-PCZcma {
+  transition-duration: .3s;
+  border-color: var(--close-button);
+
+  svg path {
+    fill: var(--close-button);
+    transition-duration: .3s;
+  }
+
+  &:hover {
+    background-color: var(--close-button);
+    border-color: var(--close-button);
+
+    svg path {
+      fill: var(--background);
+    }
+  }
+}
+
+/* --== Style "User Profile" page ==-- */
+.profileBannerPreview-3mLIdO {
+  background-color: var(--background);
+}
+
+.imageUploaderInner-IIRaFr {
+  border-color: var(--background);
+}
+
+/* --== Style "Privacy & Safety" page ==-- */
+.item-2idW98, .itemFilled-1cPbtg[aria-checked=true], .item-2idW98:hover:not([aria-checked=true]) {
+  background-color: var(--background);
+}
+
+.formNotice-2nS8ey {
+  background: transparent;
+  border: none;
+}
+
+/* --== Style "Authorized Apps" page ==-- */
+.authedApp-8q3NA9 {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+}
+
+/* --== Style "Connections" page ==-- */
+.accountList-Wii_T5, .connection-YOVI9j {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+}
+
+.connectionHeader-Ixbb1s, .accountBtnInner-3ttD-i, .integration-1qC-fv {
+  background-color: transparent !important;
+}
+
+/* --== Style "Discord Nitro" page ==-- */
+.subscriptionsRedirectContainer-zD3U79 {
+  background-color: var(--background);
+}
+
+.feature-2IUcBI {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight);
+}
+
+/* --== Style "Server Boost" page ==-- */
+.card-2xlCYc {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+}
