@@ -440,3 +440,56 @@
     border-top-color: var(--background) !important;
   }
 }
+
+/* --== Style Inbox ==-- */
+.recentMentionsPopout-2bI1ZN {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+
+  .channelHeader-DFRX8q, .messages-23can0, .header-145e10, .messageContainer-3VTXBC {
+    background: transparent;
+  }
+
+  .divider-3NCgnL {
+    border-color: var(--highlight);
+
+    .content-3spvdd {
+      background-color: var(--highlight);
+      color: var(--background);
+    }
+  }
+
+  .jumpButton-1V_1FA {
+    background-color: var(--background);
+    border: 1px solid var(--highlight);
+    transition-duration: var(--transition-time);
+
+    .text-2ifC_x {
+      transition-duration: var(--transition-time);
+      color: var(--highlight);
+    }
+
+    &:hover {
+      background-color: var(--highlight);
+      .text-2ifC_x {
+        color: var(--background);
+      }
+    }
+  }
+
+  .button-1_oXub {
+    background-color: var(--background);
+    border: 1px solid var(--highlight);
+    transition-duration: var(--transition-time);
+    color: var(--highlight);
+
+    &:hover {
+      background-color: var(--highlight);
+      color: var(--background);
+    }
+  }
+
+  .embedFull-1HGV2S {
+    background: transparent;
+  }
+}

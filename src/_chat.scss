@@ -380,6 +380,11 @@ code {
   color: inherit;
 }
 
+.searchBar-jGtisZ {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+}
+
 /* --== Style channelgroup titles ==-- */
 .containerDefault-3TQ5YN {
   display: flex;
@@ -456,4 +461,15 @@ code {
 
 .cozy-VmLDNB .timestamp-p1Df1m.alt-1dvXnH {
   color: var(--highlight);
+}
+
+/* --== Recolor selected server pill and remove home button pill ==-- */
+.pill-L_aLMQ {
+  display: none;
+}
+
+.pill-2RsI5Q {
+  .item-2LIpTv {
+    background-color: var(--highlight);
+  }
 }
