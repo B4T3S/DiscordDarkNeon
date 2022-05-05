@@ -30,7 +30,9 @@ body {
 .container-ZMc96U, .privateChannels-oVe7HL, .scroller-WSmht3,
 // The settings page
 .layer-86YKbF, .standardSidebarView-E9Pc3j, .sidebarRegionScroller-FXiQOh,
-.contentRegion-3HkfJJ, .contentRegionScroller-2_GT_N
+.contentRegion-3HkfJJ, .contentRegionScroller-2_GT_N,
+// The Library page
+.container-3u6dG-, .stickyHeader-fX4ei6, .scroller-1TOeMq
 {
   background: transparent !important;
 }
@@ -185,9 +187,20 @@ body {
   background-color: var(--background) !important;
 }
 
+/* --== Style "Blocked" page ==-- */
+.inner-2pOSmK {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+}
+
 /* --== Style "Add Friend" page ==-- */
 .peopleColumn-1wMU14 {
-  background-color: var(--background);
+  background-color: transparent;
+}
+
+.addFriendInputWrapper-kkoSV9 {
+  background-color: transparent;
+  border: none;
 }
 
 .wrapper-1cBijl {
@@ -431,8 +444,7 @@ body {
 }
 
 /* --== Stlye a lot of the buttons ==-- */
-
-.button-f2h6uQ.lookFilled-yCfaCM {
+.button-f2h6uQ.lookFilled-yCfaCM, .searchBarComponent-3N7dCG {
   background-color: var(--background) !important;
   color: var(--highlight) !important;
   border: 1px solid var(--highlight);
@@ -461,6 +473,28 @@ body {
 /* --== Style "Two-factor enabled" text ==-- */
 .userSettingsSecurity-3C5Hg5 .isEnabled-2qCZy8 {
   color: var(--online-color);
+}
+
+/* --== Style Friends search bar ==-- */
+.wrapper-3HVHpV {
+  background: transparent;
+
+  .wrapper-15CKyy {
+    background: transparent;
+  }
+}
+
+/* --== Style friends "action buttons" ==-- */
+.actionButton-3-B2x- {
+  transition-duration: var(--transition-time);
+  background-color: var(--background);
+  color: var(--highlight);
+  border: 1px solid var(--highlight);
+
+  &:hover {
+    background-color: var(--highlight);
+    color: var(--background);
+  }
 }
 
 /* --== Hide weird unused stuff ==-- */

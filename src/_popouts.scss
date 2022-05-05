@@ -225,3 +225,218 @@
   border-color: var(--highlight);
   color: gray;
 }
+
+/* --== Selection Dropdown ==-- */
+.popout-1KHNAq {
+  background-color: var(--background);
+
+  .option-2eIyOn {
+    &[aria-selected=true] {
+      background-color: var(--highlight) !important;
+      color: var(--background) !important;
+    }
+
+    &:hover {
+      background-color: var(--background);
+    }
+  }
+}
+
+.card-16VQ8C {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+}
+
+/* --== Style "Gift Inventory" page ==-- */
+.input-2g-os5 {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+}
+
+/* --== Style "Billing" page ==-- */
+.paymentPane-ut5qKZ {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight);
+
+  .paginator-1eqD2g, .paymentRow-1HKOLu {
+    background-color: var(--background);
+
+    &:hover {
+      background-color: var(--background);
+    }
+  }
+
+  .expandedInfo-1W31i3 {
+    background-color: var(--background);
+    border: 1px solid var(--highlight);
+  }
+}
+
+.codeRedemptionRedirect-2hYMSQ {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight) !important;
+}
+
+/* --== Style "Appearance" page ==-- */
+.radioBar-3w9XY- {
+  border: 1px solid var(--highlight);
+}
+
+.bar-1Bhnl9 {
+  background: var(--background) !important;
+}
+
+.barFill-2Bh7CX {
+  background: var(--highlight) !important;
+}
+
+/* --== Style "Accessibility" page ==-- */
+.previewMessage-2g_aBv {
+  background-color: var(--background);
+}
+
+/* --== Style "Voice & Video" page ==-- */
+.cameraWrapper-3a7Ngv {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+}
+
+/* --== Style "Notifications" page ==-- */
+.select-1Ia3hD {
+  border: 1px solid var(--highlight) !important;
+}
+
+/* --== Style "Activity Status" page ==-- */
+.activeGame-1OdxzI {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight);
+}
+
+.wrapper-SdcMKg {
+  border-color: var(--highlight);
+
+  .selected-18Wszc {
+    background-color: var(--highlight);
+  }
+
+  .option-1QI4c9 {
+    transition-duration: var(--transition-time);
+
+    &:hover {
+      background-color: var(--background);
+      border: 1px solid var(--highlight);
+    }
+  }
+}
+
+/* --== Style Betterdiscord "Settings" page ==-- */
+.bd-select {
+  background-color: var(--background);
+  border-color: var(--highlight);
+
+  .bd-select-option {
+    background-color: var(--background);
+
+    &:hover {
+      background-color: var(--background);
+    }
+  }
+}
+
+/* Style Betterdiscord "Plugins" page */
+.bd-addon-card {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight);
+
+  .bd-addon-header {
+    background-color: var(--background);
+  }
+}
+
+.bd-view-button {
+    &.selected {
+      background-color: var(--highlight) !important;
+    }
+}
+
+.bd-search-wrapper {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+}
+
+.bd-button {
+  .contents-3ca1mk {
+    background: transparent;
+  }
+}
+
+/* --== Style quick switcher ==-- */
+.quickswitcher-pKcM9U {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+
+  .input-3r5zZY, .scroller-2qwVWY {
+    background-color: var(--background);
+  }
+
+  .protip-1jXzAl {
+    border: none;
+  }
+
+  .result-u66Ywh {
+    transition-duration: var(--transition-time);
+
+    &:hover, &[aria-selected=true] {
+      background-color: var(--highlight) !important;
+      .icon-12xJtb, .name-3qeTY-, .misc-XwBATim {
+        color: var(--background) !important;
+      }
+    }
+  }
+}
+
+/* --== Style dropdown buttons ==-- */
+.scroller-1bVxF5 {
+  background-color: var(--background);
+
+  .item-1OdjEX {
+    transition-duration: var(--transition-time);
+
+    &:hover {
+      background-color: var(--highlight) !important;
+      color: var(--background) !important;
+    }
+
+    &.colorDanger-3n-KnP {
+      &:hover {
+        background-color: var(--close-button) !important;
+        color: var(--background) !important;
+      }
+    }
+  }
+}
+
+/* --== Style right-click message options ==-- */
+.wrapper-2vIMkT {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+
+  .button-3bklZh {
+    transition-duration: var(--transition-time);
+    background-color: var(--background);
+    color: var(--highlight);
+
+    &:hover {
+      background-color: var(--highlight);
+      color: var(--background) !important;
+    }
+  }
+}
+
+/* --== Style tooltips ==-- */
+.tooltip-14MtrL {
+  background-color: var(--background) !important;
+  .tooltipPointer-3L49xb {
+    border-top-color: var(--background) !important;
+  }
+}
