@@ -1,0 +1,15 @@
+name: build
+run-name: Build theme
+on: [push]
+
+jobs:
+  build:
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: npm build
+      - run: mkdir .public
+      - run: cp -r * .public
+      - run: mv .public public
