@@ -1,0 +1,26 @@
+:root {
+  --rgb-highlight: 4, 217, 255;
+  --highlight: rgb(var(--rgb-highlight));
+  --background: black;
+  --close-button: #D41227;
+  --online-color: #39ff14;
+  --afk-color: #FFFF33;
+  --dnd-color: #FF0000;
+  --streaming-color: #bc13fe;
+
+  --scrollbar-thin-thumb: var(--highlight);
+  --scrollbar-auto-thumb: var(--highlight);
+  --scrollbar-auto-scrollbar-color-thumb: var(--highlight);
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-track: transparent;
+  --scrollbar-auto-scrollbar-color-track: transparent;
+
+  --transition-time: .3s;
+
+  --background-image: url(https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/BasicBackground/_res/background.jpg?raw=true);
+  // --background-image: unset;
+  --background-position: center;
+  --background-size: cover;
+  --background-blur: 5px;
+  --background-brightness: 100%;
+}
