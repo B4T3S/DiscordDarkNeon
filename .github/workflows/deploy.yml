@@ -15,7 +15,7 @@ jobs:
           node-version: 16
       - run: npm install
       - run: npm run build
-      - run: ls /css
+      - run: ls -R
       - run: mkdir .public
       - run: cp -r * .public
       - run: mv .public public
