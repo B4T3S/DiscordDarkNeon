@@ -1,0 +1,118 @@
+/* --== Author tag ==-- */
+[data-author-id="137259132305539072"] .headerText-2z4IhQ::after,
+[data-user-id="137259132305539072"] .nameAndDecorators-3ERwy2::after {
+  content: '';
+  display: inline-block;
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/crayon.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  background-color: var(--highlight);
+  width: 5px !important;
+  height: 5px !important;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+[data-user-id="137259132305539072"] .headerTagDiscriminatorNoNickname-dfcvHa::after {
+  content: '';
+  display: inline-block;
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/crayon.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  background-color: var(--highlight);
+  width: 7px !important;
+  height: 7px !important;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+/* --== Quality control tag ==-- */
+
+[data-author-id="360790467224403969"] .headerText-2z4IhQ::after,
+[data-user-id="360790467224403969"] .nameAndDecorators-3ERwy2::after {
+  content: '';
+  display: inline-block;
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/magnifying_glass_icon.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  background-color: var(--highlight);
+  width: 5px !important;
+  height: 5px !important;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+[data-user-id="360790467224403969"] .headerTagDiscriminatorNoNickname-dfcvHa::after {
+  content: '';
+  display: inline-block;
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/magnifying_glass_icon.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  background-color: var(--highlight);
+  width: 7px !important;
+  height: 7px !important;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+/* --== Secret Tag! :o ==-- */
+
+[data-author-id="314436637465772033"] .headerText-2z4IhQ::after,
+[data-user-id="314436637465772033"] .nameAndDecorators-3ERwy2::after {
+  content: '';
+  display: inline-block;
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/cat.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  background-color: var(--highlight);
+  width: 10px !important;
+  height: 10px !important;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+[data-user-id="314436637465772033"] .headerTagDiscriminatorNoNickname-dfcvHa::after {
+  content: '';
+  display: inline-block;
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/cat.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  background-color: var(--highlight);
+  width: 15px !important;
+  height: 15px !important;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+/* --== PATREON Tags! ==-- */
+/* No patreons for now :(
+[data-author-id=""] .headerText-2z4IhQ::after,
+[data-user-id=""] .nameAndDecorators-3ERwy2::after {
+  content: '';
+  display: inline-block;
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/Patreon_logomark.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  background-color: var(--highlight);
+  width: 10px !important;
+  height: 10px !important;
+  padding: 3px;
+  padding-top: 3px;
+  margin-left: 5px;
+}
+
+[data-user-id="314436637465772033"] .headerTagDiscriminatorNoNickname-dfcvHa::after {
+  content: '';
+  display: inline-block;
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/Patreon_logomark.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  background-color: var(--highlight);
+  width: 15px !important;
+  height: 15px !important;
+  padding: 3px;
+  padding-top: 3px;
+  margin-left: 5px;
+}
+
+*/
