@@ -4,7 +4,7 @@
   "description": "Dark Neon theme for BetterDiscord.",
   "main": "",
   "scripts": {
-    "build": "sass --style=compressed --no-source-map src/main.scss:css/mainRewrite.css",
+    "build": "sass --style=compressed --no-source-map src/main.scss:public/mainRewrite.css",
     "dev": "watch \"sass --no-source-map src/main.scss:%AppData%/BetterDiscord/themes/DarkNeonDEV.theme.css\" src"
   },
   "repository": {
