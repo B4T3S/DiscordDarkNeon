@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://commandcrafterhd:SAwLgVvzcvrxVhRFcqDy@gitlab.com/CommandCrafterHD/bates-discord-theme.git"
+    "url": "https://github.com/CommandCrafterHD/DiscordDarkNeon/"
   },
   "author": "Bates#7075",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/CommandCrafterHD/bates-discord-theme/issues"
+    "url": "https://github.com/CommandCrafterHD/DiscordDarkNeon.git"
   },
-  "homepage": "https://gitlab.com/CommandCrafterHD/bates-discord-theme#readme",
+  "homepage": "https://github.com/CommandCrafterHD/DiscordDarkNeon#readme",
   "dependencies": {
     "sass": "^1.51.0",
     "watch": "^1.0.2"
