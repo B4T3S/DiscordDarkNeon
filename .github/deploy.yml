@@ -2,9 +2,9 @@ name: build
 run-name: Build theme
 on:
   push:
-    branches: [main]
+    branches: [master]
   merge:
-    branches: [main, dev]
+    branches: [master, dev]
 
 jobs:
   build:
