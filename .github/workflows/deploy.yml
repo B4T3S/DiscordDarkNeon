@@ -9,14 +9,12 @@ jobs:
     name: Build and deploy theme
     runs-on: ubuntu-latest
     steps:
-      - name: Build
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: 16
       - run: npm install
       - run: npm run build
-      - name: Deploy to pages branch
       - uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: public
