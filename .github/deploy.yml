@@ -1,9 +1,14 @@
 name: build
 run-name: Build theme
-on: [push]
+on:
+  push:
+    branches: [master]
+  merge:
+    branches: [master, dev]
 
 jobs:
   build:
+    name: Build and deploy theme
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
