@@ -45,7 +45,7 @@
 
 /* VERSION INFO */
 .info-3pQQBb:last-child::after {
-  content: "Dark Neon Version 1.3.25";
+  content: "Dark Neon Version 1.3.27";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -143,6 +143,10 @@
   border-left: 3px solid var(--highlight);
 }
 
+.container-ZMc96U {
+  background-color: var(--background) !important;
+}
+
 /* --== Style Spoiler warning ==-- */
 .theme-dark .spoilerWarning-8ovW0v {
   background-color: var(--background);
@@ -173,7 +177,7 @@
 }
 
 /* --== Style codeblocks and Markdown notation in Chat inputbox ==-- */
-.codeBlockSyntax-2MZ-Qy, .syntaxAfter-OxiKEl, .syntaxBefore-3pDAmR {
+.codeBlockSyntax-2MZ-Qy, .syntaxAfter-2_BrZf, .syntaxBefore-3epS3C {
   color: var(--highlight);
 }
 
