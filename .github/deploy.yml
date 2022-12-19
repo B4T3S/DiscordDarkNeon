@@ -7,8 +7,9 @@ on:
     branches: [master, dev]
 
 jobs:
-  build:
+  build-and-deploy:
     name: Build and deploy theme
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
