@@ -4,7 +4,7 @@
   <a href="https://www.patreon.com/bates" target="_blank"><img src="https://img.shields.io/badge/Patreon-Support%20me%3F-f96854"></img></a>
 </div>
 <h1 align="center">Dark Neon Discord Theme</h1>
-<img src="https://commandcrafterhd.github.io/DiscordDarkNeon/img/DarkNeon.png">
+<img src="https://commandcrafterhd.github.io/DiscordDarkNeon/DarkNeon.png">
 
 <h2>About</h2>
 

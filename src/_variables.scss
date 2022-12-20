@@ -1,8 +1,10 @@
-:root {
+:root, .theme-dark, .theme-light {
   --rgb-highlight: 4, 217, 255;
   --highlight: rgb(var(--rgb-highlight));
   --rgb-background: 0, 0, 0;
   --background: rgb(var(--rgb-background));
+  --rgb-text: 197, 200, 198;
+  --text: rgb(var(--rgb-text));
   --rgb-close-button: 212, 18, 39;
   --close-button: rgb(var(--rgb-close-button));
   --rgb-online-color: 57, 255, 20;
@@ -35,7 +37,7 @@
   /* --== BACKGROUND ==-- */
   --background-primary: var(--background);
   --background-mobile-primary: var(--background);
-  --background-secondary: var(--background);
+  --background-secondary: var(--background) !important;
   --background-mobile-secondary: var(--background);
   --background-secondary-alt: var(--background);
   --background-tertiary: var(--background);
@@ -100,6 +102,8 @@
   --text-warning: var(--afk-color);
   --text-danger: var(--dnd-color);
   --text-brand: var(--highlight);
+  --text-normal: var(--text);
+  --text-muted: var(--text);
 
   /* --== BUTTONS ==-- */
   $buttons: ("danger": "rgb-close-button",
@@ -139,6 +143,10 @@
   --status-danger: var(--dnd-color);
   --status-warning: var(--afk-color);
   --status-positive: var(--online-color);
+
+  /* --== USER PROFILES ==-- */
+  --profile-gradient-primary-color: var(--rgb-background);
+  --profile-gradient-secondary-color: var(--rgb-background);
 
   /* --== "BRAND" COLOR ==-- */
   --brand-experiment: var(--highlight);
