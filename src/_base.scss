@@ -15,13 +15,15 @@ body {
 // The channel list
 .sidebar-1tnWFu, .container-1NXEtd,
 // The mute/deafen/settings panel
-.panels-3wFtMD,
+.panels-3wFtMD, .container-YkUktl,
 // The chat
-.chat-2ZfjoI,
+.chat-2ZfjoI, .chatContent-3KubbW,
 // The title bar
 .title-31SJ6t,
+// The search bar,
+.searchBar-jGtisZ,
 // The user list
-.container-2o3qEW, .members-3WRCEx, .content-2a4AW9, .container-1oeRFJ,
+.container-2o3qEW, .members-3WRCEx, .content-1jQy2l, .container-1oeRFJ,
 // The chat box
 .scrollableContainer-15eg7h, .channelTextArea-1VQBuV,
 // The friends page
@@ -32,7 +34,9 @@ body {
 .layer-86YKbF, .standardSidebarView-E9Pc3j, .sidebarRegionScroller-FXiQOh,
 .contentRegion-3HkfJJ, .contentRegionScroller-2_GT_N,
 // The Library page
-.container-3u6dG-, .stickyHeader-fX4ei6, .scroller-1TOeMq
+.container-3u6dG-, .stickyHeader-fX4ei6, .scroller-1TOeMq,
+// The Explore servers page
+.pageWrapper-2PwDoS
 {
   background: transparent !important;
 }
@@ -164,4 +168,9 @@ body {
 /* --== Hide weird unused stuff ==-- */
 .theme-dark .children-3xh0VB:after, .form-3gdLxP::before, .option-ayUoaq:after {
   display: none;
+}
+
+/* --== Make sure friends without custom profile-background just get the theme default, by default ==-- */
+.userPanelInnerThemed-2xZFjl {
+  background-color: var(--background);
 }
