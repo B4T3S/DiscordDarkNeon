@@ -1,38 +1,38 @@
 /**
  * @name Dark Neon
  * @author Bates#7075
- * @version 1.0.0
+ * @version 2.0.0
  * @source https://gitlab.com/CommandCrafterHD/bates-discord-theme
  * @website https://commandcrafterhd.gitlab.io/bates-discord-theme/
  * @donate https://www.paypal.com/paypalme/floriancegledi
  * @patreon https://patreon.com/bates
- * @description A dark theme with bright neon-y colors!
+ * @description A dark theme with bright neon-y colors, now with more options!
  * @authorId 137259132305539072
  * @invite 6qd3SkP6Ch
 */
 
-@import url('https://commandcrafterhd.github.io/DiscordDarkNeon/css/main.css');
+@import url('https://commandcrafterhd.github.io/DiscordDarkNeon/mainRewrite.css');
 /* ^ This is the main Import ^ DO NOT TOUCH. Without this, the theme won't load!!! */
 
 @import url('https://commandcrafterhd.github.io/DiscordDarkNeon/css/hideUsers.css');
-/* ^ This import ^ Collapses the userlist in Servers and Groups, comment it out if you don't want that! */
-/* Also a big thank you to rmkx for letting me use some of their code for this, check out their "Boreal" theme! */
+/* This import adds the collapsible user-list. Remove it/comment it out to disable that feature */
 
 /* CUSTOMIZE COLORS IN HERE! */
 :root {
-  --rgb-highlight: 4, 217, 255 !important; /* The main highlight color in RGB values (RGB instead of hex is needed for faded effects) */
-  --background: black !important; /* The main background color */
-  --close-button: var(--dnd-color) !important; /* The main "close this" or "deny" color */
-  --online-color: #39ff14 !important; /* The color used in the "online" user status symbol */
-  --afk-color: #FFFF33 !important; /* The color used in the "idle" user status symbol */
-  --dnd-color: #FF0000 !important; /* The color used in the "do not disturb" user status symbol */
-  --streaming-color: #bc13fe !important; /* The color used in the "streaming X" user status symbol */
+  --rgb-highlight: 4, 217, 255; /* The main highlight color */
+  --rgb-background: 0, 0, 0; /* The main background color */
+  --rgb-text: 197, 200, 198; /* The main text color */
+  --rgb-close-button: 212, 18, 39; /* The main "close this" or "deny" color */
+  --rgb-online-color: 57, 255, 20; /* The color used in the "online" user status symbol */
+  --rgb-afk-color: 255, 255, 51; /* The color used in the "idle" user status symbol */
+  --rgb-dnd-color: 255, 0, 0; /* The color used in the "do not disturb" user status symbol */
+  --rgb-streaming-color: 188, 19, 254; /* The color used in the "streaming X" user status symbol */
 
-  /* --== Radial Status support ==-- */
-  --rs-online-color: var(--online-color) !important;
-  --rs-idle-color: var(--afk-color) !important;
-  --rs-dnd-color: var(--dnd-color) !important;
-  --rs-offline-color: gray !important;
-  --rs-invisible-color: gray !important;
-  --rs-streaming-color: var(--stream-color) !important;
+  --transition-time: .3s; /* How fast animations added by the theme happen. Default is 0.3 seconds */
+
+  --background-image: unset; /* To add an image, replace unset with url(https://www.YOUR-URL-HERE.com) */
+  --background-position: center; /* Positions the background image */
+  --background-size: cover; /* Scales the background image */
+  --background-blur: 5px; /* Blurs the image which helps with readability of text infront of it */
+  --background-brightness: 100%; /* Changes the background images brightness */
 }
