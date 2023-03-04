@@ -1,0 +1,28 @@
+:root {
+    --hidden-user-width: 60px;
+    --user-width: 240px;
+  }
+  
+  .membersWrap-3NUR2t {
+    transition-duration: var(--transition-time);
+    justify-content: unset;
+    min-width: unset;
+    width: var(--hidden-user-width);
+  }
+  
+  .membersGroup-2eiWxl {
+    height: 0px;
+    transition-duration: var(--transition-time);
+  }
+  
+  .membersWrap-3NUR2t:hover .membersGroup-2eiWxl{
+    height: 40px;
+  }
+  
+  .membersWrap-3NUR2t:hover {
+    width: var(--user-width);
+  }
+
+  .profilePanel-2PWEok {
+    transition-duration: var(--transition-time);
+  }
