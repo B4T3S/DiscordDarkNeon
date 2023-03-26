@@ -207,3 +207,8 @@ body {
     background-color: rgba(var(--rgb-highlight), 20%) !important;
   }
 }
+
+/* --== Change mentioned color bar ==-- */
+.mentioned-Tre-dv::before {
+  background-color: var(--highlight);
+}
