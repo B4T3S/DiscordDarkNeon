@@ -191,3 +191,8 @@ body {
 .scrollableContainer-15eg7h {
   background-color: var(--background);
 }
+
+/* --== Fix super bright replying highlights ==-- */
+.replying-eZ7p5z:hover {
+  background-color: rgba(var(--rgb-highlight), 60%) !important;
+}
