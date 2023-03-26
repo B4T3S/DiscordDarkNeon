@@ -25,7 +25,7 @@ body {
 // The user list
 .container-2o3qEW, .members-3WRCEx, .content-1jQy2l, .container-1oeRFJ,
 // The chat box
-.scrollableContainer-15eg7h, .channelTextArea-1VQBuV,
+.channelTextArea-1VQBuV,
 // The friends page
 .container-2cd8Mz, .section-3G9aLW, .nowPlayingColumn-1eCBCN,
 .container-1oAagU, .itemCard-3Etziu, .section-3G9aLW, .inset-SbsSFp,
@@ -172,5 +172,22 @@ body {
 
 /* --== Make sure friends without custom profile-background just get the theme default, by default ==-- */
 .userPanelInnerThemed-2xZFjl {
+  background-color: var(--background);
+}
+
+/* --== Fix invisible reaction count =-- */
+.reactionMe-1PwQAc {
+  .reactionCount-26U4As {
+      color: var(--background) !important;
+  }
+}
+
+/* --== Fix illegible bot tag ==-- */
+.botText-1fD6Qk, .botTagVerified-2KCPMa {
+  color: var(--background);
+}
+
+/* --== Set chat background color to fix transparency issues ==-- */
+.scrollableContainer-15eg7h {
   background-color: var(--background);
 }
