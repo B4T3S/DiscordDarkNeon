@@ -196,3 +196,14 @@ body {
 .replying-eZ7p5z:hover {
   background-color: rgba(var(--rgb-highlight), 60%) !important;
 }
+
+/* --== Highlight selected channel ==-- */
+.modeSelected-3DmyhH {
+  .icon-2W8DHg {
+    color: var(--highlight) !important;
+  }
+
+  .content-1gYQeQ {
+    background-color: rgba(var(--rgb-highlight), 20%) !important;
+  }
+}
