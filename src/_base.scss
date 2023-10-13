@@ -197,6 +197,15 @@ body {
   background-color: rgba(var(--rgb-highlight), 60%) !important;
 }
 
+/* --== Fix super bright bot-replying highlights ==-- */
+.ephemeral-2nDdnn {
+  background-color: rgba(var(--rgb-highlight), 30%);
+}
+
+.ephemeral-2nDdnn:hover {
+  background-color: rgba(var(--rgb-highlight), 40%) !important;
+}
+
 /* --== Highlight selected channel ==-- */
 .modeSelected-3DmyhH {
   .icon-2W8DHg {
