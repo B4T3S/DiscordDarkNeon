@@ -44,14 +44,14 @@ body {
 /* --== Style the online/afk/dnd icons ==-- */
 
 /* --== THIS PART WAS YOINKED FROM _DAVID_! THANKS DAVID! ==-- */
-#app-mount .wrapper-1VLyxH rect[fill="#593695"],
-#app-mount .wrapper-1VLyxH rect[mask*=streaming] {fill: var(--streaming-color)}
-#app-mount .wrapper-1VLyxH rect[fill="#43b581"],
-#app-mount .wrapper-1VLyxH rect[mask*=online] {fill: var(--online-color)}
-#app-mount .wrapper-1VLyxH rect[fill="#faa61a"],
-#app-mount .wrapper-1VLyxH rect[mask*=idle] {fill: var(--afk-color)}
-#app-mount .wrapper-1VLyxH rect[fill="#f04747"],
-#app-mount .wrapper-1VLyxH rect[mask*=dnd] {fill: var(--dnd-color)}
+#app-mount .wrapper-3Un6-K rect[fill="#593695"],
+#app-mount .wrapper-3Un6-K rect[mask*=streaming] {fill: var(--streaming-color)}
+#app-mount .wrapper-3Un6-K rect[fill="#43b581"],
+#app-mount .wrapper-3Un6-K rect[mask*=online] {fill: var(--online-color)}
+#app-mount .wrapper-3Un6-K rect[fill="#faa61a"],
+#app-mount .wrapper-3Un6-K rect[mask*=idle] {fill: var(--afk-color)}
+#app-mount .wrapper-3Un6-K rect[fill="#f04747"],
+#app-mount .wrapper-3Un6-K rect[mask*=dnd] {fill: var(--dnd-color)}
 
 /* --== Style the unread number-badges ==-- */
 .numberBadge-37OJ3S {
@@ -61,8 +61,11 @@ body {
 
 /* --== Style the unread message bar ==-- */
 .isUnread-3Lojb- {
-  color: var(--highlight);
   border: 1px solid var(--highlight);
+}
+
+.content-3spvdd {
+  color: var(--highlight);
 }
 
 .wrapper-NhbLHG:hover {
@@ -92,17 +95,17 @@ body {
 }
 
 /* --== Style chat  ==-- */
-.channelTextArea-1FufC0 {
+.channelTextArea-1deLlK {
   border: 1px solid var(--highlight);
 }
 
 /* --== Style profile ==-- */
-.userProfileInnerThemedNonPremium-1gT-zY {
+.userProfileInnerThemedNonPremium-2AJg-H {
   background-color: var(--background);
 }
 
 /* --== Style member titles ==-- */
-.membersGroup-2eiWxl {
+.membersGroup-2YoqY- {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,7 +113,7 @@ body {
   padding: 0px;
 }
 
-.membersGroup-2eiWxl::before {
+.membersGroup-2YoqY-::before {
   content: '';
   width: 100%;
   height: 2px;
@@ -119,7 +122,7 @@ body {
   background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0) 0%, rgba(var(--rgb-highlight), 1) 100%);
 }
 
-.membersGroup-2eiWxl::after {
+.membersGroup-2YoqY-::after {
   content: '';
   width: 100%;
   height: 2px;
