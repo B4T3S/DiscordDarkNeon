@@ -4,71 +4,79 @@ body {
   background-image: var(--background-image);
   background-position: var(--background-position);
   background-size: var(--background-size);
-  backdrop-filter: blur(var(--background-blur)) brightness(var(--background-brightness));
+  backdrop-filter: blur(var(--background-blur))
+    brightness(var(--background-brightness));
 }
 
 /* --== Make everything (which needs to be) transparent ==-- */
 // The main App background
-.appMount_fae9dd, .app_de4237, .bg__12180,
+.appMount_c99875, .app_de4237, .bg__12180,
 // The guild list
-.guilds__2b93a, .scroller__3d071,
+.guilds__2b93a, .scroller_de945b,
 // The channel list
-.sidebar_ded4b5, .container__590e2,
+.sidebar_e031be, .container__7e23c,
 // The mute/deafen/settings panel
-.panels__58331, .container_ca50b9,
+.panels__58331, .container_debb33,
 // The chat
-.chat__52833, .chatContent__5dca8,
+.chat__52833, .chatContent_f087cb,
 // The title bar
-.title_b7d661,
+.title_d4ba1a,
 // The search bar,
-.searchBar_e0c60b,
+.searchBar__5a20a,
 // The user list
-.container_b2ce9c, .members__9f47b, .content__1a4fe, .container__4f20e,
+.container_f79ab4, .members__573eb, .content__01e65, .container_a48b21,
 // The chat box
-.channelTextArea__56a36,
+.channelTextArea__648e5,
 // The friends page
-.container__5c7e7, .section_efc22d, .nowPlayingColumn_f5023f,
-.container__0a6a9, .itemCard__1f162, .section_efc22d, .inset__0bfb3,
-.container__11d72, .privateChannels__93473, .scroller__4b984,
+.container_bd15da, .section__253ec, .nowPlayingColumn_b025fe,
+.container__3673d, .itemCard_b64118, .section__253ec, .inset__61d5b,
+.container__26baa, .privateChannels__9b518, .scroller__89969,
 // The settings page
-.layer__2efaa , .standardSidebarView__1129a, .sidebarRegionScroller__1fa7e,
-.contentRegion__0bec1, .contentRegionScroller__86c79,
+.layer_f7d46a , .standardSidebarView__12528, .sidebarRegionScroller__8113e,
+.contentRegion__08eba, .contentRegionScroller__9ae20,
 // The Library page
-.container__0eeef, .stickyHeader_aa58d0, .scroller__9c698,
+.container_a8317e, .stickyHeader_bba39c, .scroller_ddc925,
 // The Explore servers page
-.pageWrapper_fef757
-{
+.pageWrapper_c182d3 {
   background: transparent !important;
 }
 
 /* --== Style the online/afk/dnd icons ==-- */
 
 /* --== THIS PART WAS YOINKED FROM _DAVID_! THANKS DAVID! ==-- */
-#app-mount .wrapper_edb6e0 rect[fill="#593695"],
-#app-mount .wrapper_edb6e0 rect[mask*=streaming] {fill: var(--streaming-color)}
-#app-mount .wrapper_edb6e0 rect[fill="#43b581"],
-#app-mount .wrapper_edb6e0 rect[mask*=online] {fill: var(--online-color)}
-#app-mount .wrapper_edb6e0 rect[fill="#faa61a"],
-#app-mount .wrapper_edb6e0 rect[mask*=idle] {fill: var(--afk-color)}
-#app-mount .wrapper_edb6e0 rect[fill="#f04747"],
-#app-mount .wrapper_edb6e0 rect[mask*=dnd] {fill: var(--dnd-color)}
+#app-mount .wrapper__3ed10 rect[fill="#593695"],
+#app-mount .wrapper__3ed10 rect[mask*="streaming"] {
+  fill: var(--streaming-color);
+}
+#app-mount .wrapper__3ed10 rect[fill="#43b581"],
+#app-mount .wrapper__3ed10 rect[mask*="online"] {
+  fill: var(--online-color);
+}
+#app-mount .wrapper__3ed10 rect[fill="#faa61a"],
+#app-mount .wrapper__3ed10 rect[mask*="idle"] {
+  fill: var(--afk-color);
+}
+#app-mount .wrapper__3ed10 rect[fill="#f04747"],
+#app-mount .wrapper__3ed10 rect[mask*="dnd"] {
+  fill: var(--dnd-color);
+}
 
 /* --== Style the unread number-badges ==-- */
-.numberBadge__50328 {
+.numberBadge__40d6f {
   background-color: rgba(var(--rgb-highlight), 70%) !important;
   color: var(--background);
 }
 
 /* --== Style the unread message bar ==-- */
-.isUnread__6f880 {
+.isUnread_de09f5 {
   border: 1px solid var(--highlight);
 }
 
-.content_d67847 {
+.content__7191e {
   color: var(--highlight);
 }
 
-.wrapper__7bcde:hover {
+.wrapper__612a5:hover {
   .unread__48cf4 {
     background-color: var(--highlight);
   }
@@ -79,12 +87,12 @@ body {
   border-radius: 2px;
 }
 
-.unreadPillCapStroke__12c0b {
+.unreadPillCapStroke__89d64 {
   color: var(--highlight);
   fill: var(--highlight);
 }
 
-.unreadPill__715fc {
+.unreadPill__1b4fa {
   background-color: var(--highlight);
   color: var(--background) !important;
 }
@@ -95,17 +103,17 @@ body {
 }
 
 /* --== Style chat  ==-- */
-.channelTextArea__2e60f {
+.channelTextArea_c2094b {
   border: 1px solid var(--highlight);
 }
 
 /* --== Style profile ==-- */
-.userProfileInnerThemedNonPremium__3d0a6 {
+.userProfileInnerThemedNonPremium_ed9022 {
   background-color: var(--background);
 }
 
 /* --== Style member titles ==-- */
-.membersGroup__85843 {
+.membersGroup_cad095 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,32 +121,40 @@ body {
   padding: 0px;
 }
 
-.membersGroup__85843::before {
-  content: '';
+.membersGroup_cad095::before {
+  content: "";
   width: 100%;
   height: 2px;
   margin-right: 3px;
   display: inline-block;
-  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0) 0%, rgba(var(--rgb-highlight), 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(var(--rgb-highlight), 0) 0%,
+    rgba(var(--rgb-highlight), 1) 100%
+  );
 }
 
-.membersGroup__85843::after {
-  content: '';
+.membersGroup_cad095::after {
+  content: "";
   width: 100%;
   height: 2px;
   margin-left: 3px;
   display: inline-block;
-  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 1) 0%, rgba(var(--rgb-highlight), 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(var(--rgb-highlight), 1) 0%,
+    rgba(var(--rgb-highlight), 0) 100%
+  );
 }
 
 /* --== Style channelgroup titles ==-- */
-.containerDefault__23a29 {
+.containerDefault_e3b32b {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.containerDefault__23a29 div div {
+.containerDefault_e3b32b div div {
   color: var(--highlight);
 }
 
@@ -146,30 +162,40 @@ body {
   display: none;
 }
 
-.container-q97qHp .overflow__87fe8 {
+.container-q97qHp .overflow__993fa {
   max-width: 8vw;
 }
 
-.containerDefault__23a29::before {
-  content: '';
+.containerDefault_e3b32b::before {
+  content: "";
   width: 100%;
   height: 2px;
   margin-right: -11px;
   display: inline-block;
-  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0) 0%, rgba(var(--rgb-highlight), 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(var(--rgb-highlight), 0) 0%,
+    rgba(var(--rgb-highlight), 1) 100%
+  );
 }
 
-.containerDefault__23a29::after {
-  content: '';
+.containerDefault_e3b32b::after {
+  content: "";
   width: 100%;
   height: 2px;
   margin-left: -3px;
   display: inline-block;
-  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 1) 0%, rgba(var(--rgb-highlight), 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(var(--rgb-highlight), 1) 0%,
+    rgba(var(--rgb-highlight), 0) 100%
+  );
 }
 
 /* --== Hide weird unused stuff ==-- */
-.theme-dark .children__32014:after, .form__13a2c::before, .option_b5597b:after {
+.theme-dark .children_cde9af:after,
+.form_d8a4a1::before,
+.option__91497:after {
   display: none;
 }
 
@@ -179,48 +205,49 @@ body {
 }
 
 /* --== Fix invisible reaction count =-- */
-.reactionMe_bf6909 {
-  .reactionCount__60448 {
-      color: var(--background) !important;
+.reactionMe__9fc5c {
+  .reactionCount_b780c8 {
+    color: var(--background) !important;
   }
 }
 
 /* --== Fix illegible bot tag ==-- */
-.botText__19848, .botTagVerified_a8fa0b {
+.botText_daff56,
+.botTagVerified__3e0e4 {
   color: var(--background);
 }
 
 /* --== Set chat background color to fix transparency issues ==-- */
-.scrollableContainer__33e06 {
+.scrollableContainer_ff917f {
   background-color: var(--background);
 }
 
 /* --== Fix super bright replying highlights ==-- */
-.replying_d7b6ad:hover {
+.replying__38514:hover {
   background-color: rgba(var(--rgb-highlight), 60%) !important;
 }
 
 /* --== Fix super bright bot-replying highlights ==-- */
-.ephemeral_c26b64 {
+.ephemeral_eb5d84 {
   background-color: rgba(var(--rgb-highlight), 30%);
 }
 
-.ephemeral_c26b64:hover {
+.ephemeral_eb5d84:hover {
   background-color: rgba(var(--rgb-highlight), 40%) !important;
 }
 
 /* --== Highlight selected channel ==-- */
-.modeSelected__487d6 {
-  .icon_eff5d4 {
+.modeSelected__473f1 {
+  .icon__67ab4 {
     color: var(--highlight) !important;
   }
 
-  .wrapper__7bcde {
+  .wrapper__612a5 {
     background-color: rgba(var(--rgb-highlight), 20%) !important;
   }
 }
 
 /* --== Change mentioned color bar ==-- */
-.mentioned__58017::before {
+.mentioned_fa6fd2::before {
   background-color: var(--highlight);
 }

@@ -1,8 +1,9 @@
 /* --== Author tag ==-- */
+// Broken for now because discord (or BD) removed the data-author-id attribute a while ago :/
 [data-author-id="137259132305539072"] .headerText-2z4IhQ,
 [data-user-id="137259132305539072"] .nameAndDecorators-3ERwy2 {
   &::after {
-    content: ' Dev';
+    content: " Dev";
     display: inline-block;
     background-image: url("https://commandcrafterhd.github.io/DiscordDarkNeon/svg/crayon.svg");
     background-size: 12px 12px;
