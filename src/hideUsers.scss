@@ -3,28 +3,28 @@
   --user-width: 240px;
 }
 
-.container_f79ab4,
-.membersWrap__5ca6b {
+.container_cbd271,
+.membersWrap_cbd271 {
   transition-duration: var(--transition-time);
   justify-content: unset;
   min-width: unset;
   width: var(--hidden-user-width);
 }
 
-.membersGroup_cad095 {
+.membersGroup_cbd271 {
   height: 0px;
   transition-duration: var(--transition-time);
   padding-top: 0px;
 }
 
-.container_f79ab4:hover .membersGroup_cad095,
-.membersWrap__5ca6b:hover .membersGroup_cad095 {
+.container_cbd271:hover .membersGroup_cbd271,
+.membersWrap_cbd271:hover .membersGroup_cbd271 {
   height: 40px;
   padding-top: 24px;
 }
 
-.container_f79ab4:hover,
-.membersWrap__5ca6b:hover {
+.container_cbd271:hover,
+.membersWrap_cbd271:hover {
   width: var(--user-width);
 }
 
