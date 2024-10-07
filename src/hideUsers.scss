@@ -17,10 +17,24 @@
   padding-top: 0px;
 }
 
+.container_c64476 {
+  height: 0px;
+  transition-duration: var(--transition-time);
+  overflow: hidden;
+  padding: 0px;
+}
+
 .container_cbd271:hover .membersGroup_cbd271,
 .membersWrap_cbd271:hover .membersGroup_cbd271 {
   height: 40px;
   padding-top: 24px;
+}
+
+.container_cbd271:hover {
+  .container_c64476 {
+    height: 48px;
+    padding: 8px;
+  }
 }
 
 .container_cbd271:hover,
