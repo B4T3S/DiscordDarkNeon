@@ -24,13 +24,13 @@ body {
 // The search bar,
 .searchBar_a46bef,
 // The user list
-.container_cbd271, .members_cbd271, .content_a7d72e, .container_e9f61e,
+.container_cbd271, .members_cbd271, .content_a7d72e, .container_d808b0,
 // The chat box
 .channelTextArea_d0696b,
 // The friends page
 .container_c2739c, .section_cd82a7, .nowPlayingColumn_c2739c,
-.container_bf550a, .itemCard_f02fcf, .section_cd82a7, .inset_c0f6a6,
-.container_e44302, .privateChannels_f0963d, .scroller_c47fa9,
+.container_bf550a, .itemCard_f02fcf, .section_cd82a7, .inset_ac5d22,
+.container_fc4f04, .privateChannels_f0963d, .scroller_c47fa9,
 // The settings page
 .layer_d4b6c5 , .standardSidebarView_c25c6d, .sidebarRegionScroller_c25c6d,
 .contentRegion_c25c6d, .contentRegionScroller_c25c6d,
@@ -70,11 +70,11 @@ body {
 }
 
 /* --== Style the unread message bar ==-- */
-.isUnread_fc5f50 {
+.isUnread_c2654d {
   border: 1px solid var(--highlight);
 }
 
-.content_fc5f50 {
+.content_c2654d {
   color: var(--highlight);
 }
 
@@ -89,17 +89,17 @@ body {
   border-radius: 2px;
 }
 
-.unreadPillCapStroke_fc5f50 {
+.unreadPillCapStroke_c2654d {
   color: var(--highlight);
   fill: var(--highlight);
 }
 
-.unreadPill_fc5f50 {
+.unreadPill_c2654d {
   background-color: var(--highlight);
   color: var(--background) !important;
 }
 
-.bar_c10249 {
+.bar_edf32f, .newMessagesBar_cf58b5 {
   background-color: var(--highlight);
   color: var(--background);
 }
@@ -164,7 +164,7 @@ body {
   display: none;
 }
 
-.container-q97qHp .overflow_c74e70 {
+.container-q97qHp .overflow_a82120 {
   max-width: 8vw;
 }
 
@@ -195,7 +195,7 @@ body {
 }
 
 /* --== Hide weird unused stuff ==-- */
-.theme-dark .children_e44302:after,
+.theme-dark .children_fc4f04:after,
 .form_a7d72e::before,
 .option_b0286e:after {
   display: none;
@@ -208,14 +208,16 @@ body {
 
 /* --== Fix invisible reaction count =-- */
 .reactionMe_ec6b19 {
+  border-color: var(--highlight) !important;
+
   .reactionCount_ec6b19 {
     color: var(--background) !important;
   }
 }
 
 /* --== Fix illegible bot tag ==-- */
-.botText_a02df3,
-.botTagVerified_a02df3 {
+.botText_a9e77f,
+.botTagVerified_a9e77f {
   color: var(--background);
 }
 
