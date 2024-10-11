@@ -14,9 +14,11 @@
 @import "main.scss";
 @import "hideUsers.scss";
 
-:root {
+:root,
+.theme-dark, 
+.theme-light {
     --rgb-highlight: 255, 117, 255; /* The main highlight color */
-    --rgb-background: 0, 0, 0; /* The main background color */
+    --rgb-background: 0, 0, 90; /* The main background color */
     --rgb-text: 197, 200, 198; /* The main text color */
     --rgb-close-button: 212, 18, 39; /* The main "close this" or "deny" color */
     --rgb-online-color: 57, 255, 20; /* The color used in the "online" user status symbol */

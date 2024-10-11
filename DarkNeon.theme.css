@@ -1,7 +1,7 @@
 /**
  * @name Dark Neon
  * @author Bates
- * @version 2.0.1
+ * @version 2.2.0
  * @source https://gitlab.com/B4T3S/bates-discord-theme
  * @website https://B4T3S.gitlab.io/bates-discord-theme/
  * @donate https://www.paypal.com/paypalme/floriancegledi
@@ -18,7 +18,9 @@
 /* This import adds the collapsible user-list. Remove it/comment it out to disable that feature */
 
 /* CUSTOMIZE COLORS IN HERE! */
-:root {
+:root,
+.theme-dark, 
+.theme-light {
   --rgb-highlight: 4, 217, 255; /* The main highlight color */
   --rgb-background: 0, 0, 0; /* The main background color */
   --rgb-text: 197, 200, 198; /* The main text color */
