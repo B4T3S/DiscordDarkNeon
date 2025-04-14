@@ -8,6 +8,8 @@
 @use 'components/bots';
 @use 'components/chat';
 @use 'components/channels';
+@use 'components/gif_emoji_picker';
+@use 'components/app_picker';
 
 .theme-dark {
   /* --== Hide weird unused stuff ==-- */
