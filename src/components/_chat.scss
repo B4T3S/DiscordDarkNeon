@@ -22,4 +22,9 @@
   .mentioned__5126c::before {
     background-color: var(--highlight);
   }
+
+  /* --== Fix the autocomplete ==-- */
+  .autocompleteInner__13533 {
+    background-color: var(--background);
+  }
 }
