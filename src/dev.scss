@@ -15,8 +15,8 @@
 @import "hideUsers.scss";
 
 :root,
-.theme-dark, 
-.theme-light {
+.visual-refresh,
+.visual-refresh.theme-dark {
     --rgb-highlight: 255, 117, 255; /* The main highlight color */
     --rgb-background: 0, 0, 90; /* The main background color */
     --rgb-text: 197, 200, 198; /* The main text color */
@@ -28,8 +28,8 @@
   
     --transition-time: .3s; /* How fast animations added by the theme happen. Default is 0.3 seconds */
   
-    --background-image: unset; /* To add an image, replace unset with url(https://www.YOUR-URL-HERE.com) */
-    //--background-image: url(https://i.redd.it/9g95bt6nt8wc1.jpeg);
+    // --background-image: unset; /* To add an image, replace unset with url(https://www.YOUR-URL-HERE.com) */
+    --background-image: url(https://i.redd.it/9g95bt6nt8wc1.jpeg);
     --background-position: center; /* Positions the background image */
     --background-size: cover; /* Scales the background image */
     --background-blur: 5px; /* Blurs the image which helps with readability of text infront of it */

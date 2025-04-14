@@ -1,4 +1,6 @@
-:root, .theme-dark, .theme-light {
+:root,
+.visual-refresh,
+.visual-refresh.theme-dark {
   --highlight: rgb(var(--rgb-highlight));
   --rgb-background: 0, 0, 0;
   --background: rgb(var(--rgb-background));
@@ -46,6 +48,9 @@
   --background-modifier-hover: rgba(var(--rgb-highlight), 10%);
   --background-modifier-active: rgba(var(--rgb-highlight), 30%);
   --background-modifier-selected: var(--rgb-highlight);
+  --background-base-lowest: var(--background);
+  --background-base-low: var(--background);
+  --background-surface-high: var(--background);
 
   /* --== MODALS ==-- */
   --modal-background: var(--background);
@@ -127,6 +132,15 @@
     --button-outline-#{$name}-border-active: rgba(var(--#{$color}), 100%);
   }
 
+  --button-filled-brand-background: rgba(var(--rgb-highlight), 20%);
+  --button-filled-brand-background-hover: rgba(var(--rgb-highlight), 70%);
+  --button-filled-brand-background-border: rgba(var(--rgb-highlight), 50%);
+  --button-filled-brand-background-active: rgba(var(--rgb-highlight), 100%);
+
+  --button-outline-danger-text: var(--rgb-text);
+  --button-outline-danger-text-hover: var(--rgb-text);
+  --button-outline-danger-text-active: var(--rgb-text);
+
   /* --== SEARCH POPOUT ==-- */
   --search-popout-option-user-nickname: var(--highlight);
   --search-popout-option-user-username: rgba(var(--rgb-highlight), 70%);
@@ -149,6 +163,7 @@
   --profile-gradient-secondary-color: var(--rgb-background);
 
   /* --== "BRAND" COLOR ==-- */
+  --bg-brand: var(--highlight);
   --brand-experiment: var(--highlight);
 
   @for $i from 1 through 9 {
@@ -166,4 +181,9 @@
 
   --primary-630: var(--background);
 
+  /* --== APP BORDERS ==-- */
+  --border-faint: rgb(var(--rgb-highlight));
+  --border-subtle: rgb(var(--rgb-highlight));
+  --app-border-frame: rgb(var(--rgb-highlight));
+  --background-modifier-accent: rgb(var(--rgb-highlight));
 }
