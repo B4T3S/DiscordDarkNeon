@@ -19,8 +19,8 @@
 
 /* CUSTOMIZE COLORS IN HERE! */
 :root,
-.theme-dark, 
-.theme-light {
+.visual-refresh,
+.visual-refresh.theme-dark {
   --rgb-highlight: 4, 217, 255; /* The main highlight color */
   --rgb-background: 0, 0, 0; /* The main background color */
   --rgb-text: 197, 200, 198; /* The main text color */
