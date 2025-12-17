@@ -3,20 +3,20 @@
 
   /* --== THIS PART WAS YOINKED FROM _DAVID_! THANKS DAVID! ==-- */
 
-  #app-mount .wrapper__44b0c rect[fill="#593695"],
-  #app-mount .wrapper__44b0c rect[mask*="streaming"] {
+  #app-mount ._44b0c28be7879b7b-wrapper rect[fill="#593695"],
+  #app-mount ._44b0c28be7879b7b-wrapper rect[mask*="streaming"] {
     fill: var(--streaming-color);
   }
-  #app-mount .wrapper__44b0c rect[fill="#43b581"],
-  #app-mount .wrapper__44b0c rect[mask*="online"] {
+  #app-mount ._44b0c28be7879b7b-wrapper rect[fill="#43b581"],
+  #app-mount ._44b0c28be7879b7b-wrapper rect[mask*="online"] {
     fill: var(--online-color);
   }
-  #app-mount .wrapper__44b0c rect[fill="#faa61a"],
-  #app-mount .wrapper__44b0c rect[mask*="idle"] {
+  #app-mount ._44b0c28be7879b7b-wrapper rect[fill="#faa61a"],
+  #app-mount ._44b0c28be7879b7b-wrapper rect[mask*="idle"] {
     fill: var(--afk-color);
   }
-  #app-mount .wrapper__44b0c rect[fill="#f04747"],
-  #app-mount .wrapper__44b0c rect[mask*="dnd"] {
+  #app-mount ._44b0c28be7879b7b-wrapper rect[fill="#f04747"],
+  #app-mount ._44b0c28be7879b7b-wrapper rect[mask*="dnd"] {
     fill: var(--dnd-color);
   }
 }

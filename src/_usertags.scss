@@ -1,6 +1,6 @@
 /* --== Author tag ==-- */
-img[src*="avatars/137259132305539072"] + .header_c19a55,
-img[src*="users/137259132305539072"] + .header_c19a55 {
+img[src*="avatars/137259132305539072"] + .c19a557985eb7793-header,
+img[src*="users/137259132305539072"] + .c19a557985eb7793-header {
   &::after {
     content: " Theme Author";
     display: inline-block;
@@ -34,8 +34,8 @@ img[src*="users/137259132305539072"] + .header_c19a55 {
 }
 
 /* --== Theme Supporter tag ==-- */
-// img[src*="/avatars/<ID>"] + .header_c19a55,
-// img[src*="/users/<ID>"] + .header_c19a55 {
+// img[src*="/avatars/<ID>"] + .c19a557985eb7793-header,
+// img[src*="/users/<ID>"] + .c19a557985eb7793-header {
 //   &::after {
 //     content: " Theme Supporter";
 //     display: inline-block;

@@ -1,24 +1,24 @@
 .theme-dark {
     // --== Style the gif/emoji/sticker picker ==--
-    .contentWrapper__08434, .header__8ef02, .header_fed6d3, .header_c0e32c, .categoryList__3ad28, .scroller_affa7e, .packHeader_e94b8c, .header_c656ac, .inspector_aeaaeb, .emojiPicker_c0e32c, .unicodeShortcut_b9ee0c, #gif-picker-tab-panel {
+    ._084343c4f11eaaab-contentWrapper, ._8ef02eea17068b73-header, .fed6d32841cc2da2-header, .c0e32c5cffed3d9f-header, ._3ad28b0867fa3fad-categoryList, .affa7e120767dd82-scroller, .e94b8cb2ff7b5c8d-packHeader, .c656aca9a3db31a9-header, .aeaaeb2a573807f0-inspector, .c0e32c5cffed3d9f-emojiPicker, .b9ee0c229bc0b6bb-unicodeShortcut, #gif-picker-tab-panel {
         background-color: var(--background);
     }
 
-    .emptyGuildUpsell_e94b8c {
+    .e94b8cb2ff7b5c8d-emptyGuildUpsell {
         background-color: var(--background);
         border: 1px solid var(--highlight);
         margin-bottom: 2px;
 
-        .contents__201d5 {
+        ._201d5e8a3c09670a-contents {
             color: var(--highlight);
         }
     }
 
-    .categoryItemDefaultCategorySelected_b9ee0c, .stickerCategoryGenericSelected__3ad28 {
+    .b9ee0c229bc0b6bb-categoryItemDefaultCategorySelected, ._3ad28b0867fa3fad-stickerCategoryGenericSelected {
         background-color: var(--highlight);
     }
 
-    .categoryFadeBlurple_d02962 {
+    .d02962a38047ac3c-categoryFadeBlurple {
         --bg-brand: var(--highlight);
     }
 }
