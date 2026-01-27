@@ -1,6 +1,6 @@
 .theme-dark {
     // --== Style the app picker ==--
-    ._9c62c6ed231468c4-contentWrapper {
+    .contentWrapper__9c62c {
         --bg-base-secondary: var(--background);
         --input-border: var(--highlight);
         --text-link: var(--highlight);
@@ -8,7 +8,7 @@
         --bg-mod-subtle: var(--highlight);
     }
 
-    .cb32c78a53f54371-appDetailsContainer {
+    .appDetailsContainer_cb32c7 {
         background-color: var(--background);
     }
 }

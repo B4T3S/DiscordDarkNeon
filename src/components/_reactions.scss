@@ -1,19 +1,19 @@
 .theme-dark {
   /* --== Fix invisible reaction count =-- */
-  ._23977d5b7cef7361-reactionMe {
+  .reactionMe__23977 {
     border-color: var(--highlight) !important;
 
-    ._23977d5b7cef7361-reactionCount {
+    .reactionCount__23977 {
       color: var(--background) !important;
     }
   }
 
   /* --== Add border to reactions ==-- */
-    ._23977d5b7cef7361-reaction, ._23977d5b7cef7361-reactionBtn {
+    .reaction__23977, .reactionBtn__23977 {
         border-color: rgba(var(--rgb-highlight), 30%);
     }
 
-    ._23977d5b7cef7361-reactionBtn:hover {
+    .reactionBtn__23977:hover {
         border-color: var(--rgb-highlight);
     }
 }

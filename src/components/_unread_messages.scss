@@ -6,16 +6,16 @@
   }
 
   /* --== Style the unread message bar ==-- */
-  ._908e20001ad67812-isUnread {
+  .isUnread__908e2 {
     border: 1px solid var(--highlight);
   }
 
-  ._908e20001ad67812-content {
+  .content__908e2 {
     color: var(--highlight);
   }
 
-  ._2ea32c412048f708-wrapper:hover {
-    ._2ea32c412048f708-unread {
+  .wrapper__2ea32:hover {
+    .unread__2ea32 {
       background-color: var(--highlight);
     }
   }
@@ -25,18 +25,18 @@
     border-radius: 2px;
   }
 
-  ._908e20001ad67812-unreadPillCapStroke {
+  .unreadPillCapStroke__908e2 {
     color: var(--highlight);
     fill: var(--highlight);
   }
 
-  ._908e20001ad67812-unreadPill {
+  .unreadPill__908e2 {
     background-color: var(--highlight);
     color: var(--background) !important;
   }
 
-  ._3b95d7d910416e54-bar,
-  ._0f481cbbd7530492-newMessagesBar {
+  .bar__3b95d,
+  .newMessagesBar__0f481 {
     background-color: var(--highlight);
     color: var(--background);
   }
